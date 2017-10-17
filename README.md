@@ -3,12 +3,12 @@
 
 
 ## Front-End
-###HTML/CSS
+### HTML/CSS
 
-###JavaScript
+### JavaScript
 
 
-###jQuery
+### jQuery
 
 ## Back-End
 
