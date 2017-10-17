@@ -2,7 +2,7 @@
     I originally created this as a to-do list of study topics for becoming a full-stack developer.
 
 
-####[Full-Stack Open Source Web Application Development with Java](http://code.scottshipp.com/learn/tutorial-full-stack-open-source-web-application-development-with-java/)
+#### [Full-Stack Open Source Web Application Development with Java](http://code.scottshipp.com/learn/tutorial-full-stack-open-source-web-application-development-with-java/)
 
 ## SOA
 
