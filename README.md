@@ -18,7 +18,7 @@
 ### jQuery
 ##### Good Material
 ## Back-End
-### JSP && Servlet
+### JSP && Servlets
 
 
 ##### Good Material
