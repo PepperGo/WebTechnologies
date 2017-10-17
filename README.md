@@ -1,5 +1,6 @@
 # WebTechnologies
-    I originally created this as a to-do list of study topics for becoming a full-stack developer. After going through this study plan, I will get hired by XXX (I will fill this after getting hired).
+    I originally created this as a to-do list of study topics for becoming a full-stack developer. 
+    After going through this study plan, I will get hired by XXX (I will fill this after getting hired).
 
 
 #### [Full-Stack Open Source Web Application Development with Java](http://code.scottshipp.com/learn/tutorial-full-stack-open-source-web-application-development-with-java/)
