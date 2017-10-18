@@ -1,0 +1,110 @@
+Data Model
+  -key --> Printabe ASCII
+  
+Value
+  -Primitives
+       Strings
+  -Containers(of strings)
+       Hashes
+       Lists
+       Sets
+       Sorted Sets
+       
+       
+1. Strings
+   Redis string is a sequence of bytes and can store anything up to 512 megabytes in one string.
+   
+127.0.0.1:6379> set name "pepperGo"
+OK
+127.0.0.1:6379> get name
+"pepperGo"
+
+// SET and GET are Redis commands, name is the key used in Redis and pepperGo is the string value that is stored in Redis.
+   
+ 
+ 2. Hashes
+ A Redis hash is a collection of key value pairs. Redis Hashes are maps between string fields and string values. Hence, they are used to represent objects.
+ 
+127.0.0.1:6379> hmset user:1 username pepperGo password pepperGoGo points 100
+OK
+127.0.0.1:6379> hgetall user:1
+1) "username"
+2) "pepperGo"
+3) "password"
+4) "pepperGoGo"
+5) "points"
+6) "100"
+//Here HMSET, HGETALL are commands for Redis, while user:1 is the key.
+//Every hash can store up to 232 - 1 field-value pairs (more than 4 billion).
+
+
+127.0.0.1:6379>  hmset user username pepperGo password pepperGoGo points 100
+OK
+127.0.0.1:6379> hgetall user
+1) "username"
+2) "pepperGo"
+3) "password"
+4) "pepperGoGo"
+5) "points"
+6) "100"
+
+//Now, user is the key
+
+3. Lists
+Redis Lists are simply lists of strings, sorted by insertion order. It allows to add elements to a Redis List on the head or on the tail.
+
+127.0.0.1:6379> lpush pepperGo Java
+(integer) 1
+127.0.0.1:6379> lpush pepperGo WebProgramming
+(integer) 2
+127.0.0.1:6379> lpush pepperGo Testing
+(integer) 3
+127.0.0.1:6379> lrange pepperGo 0 10
+1) "Testing"
+2) "WebProgramming"
+3) "Java"
+
+127.0.0.1:6379> lrange pepperGo 0 1
+1) "Testing"
+2) "WebProgramming"
+//The max length of a list is 232 - 1 elements (4294967295, more than 4 billion of elements per list).
+
+4. Sets
+Redis Sets are an unordered collection of strings. In Redis, you can add, remove, and test for the existence of members in O(1) time complexity.
+
+127.0.0.1:6379> sadd pepperGoStudyList redis
+(integer) 1
+127.0.0.1:6379> sadd pepperGoStudyList mongoDB
+(integer) 1
+127.0.0.1:6379> sadd pepperGoStudyList rabitmq
+(integer) 1
+
+127.0.0.1:6379> sadd pepperGoStudyList rabitmq
+(integer) 1
+
+127.0.0.1:6379> smembers pepperGoStudyList
+1) "rabitmq"
+2) "redis"
+3) "mongoDB"
+
+//In the above example, rabitmq is added twice, however due to unique property of the set, it is added only once.
+//The max number of members in a set is 232 - 1 (4294967295, more than 4 billion of members per set).
+
+
+5. Sorted Sets
+Redis Sorted Sets are similar to Redis Sets, non-repeating collections of Strings.
+The difference is, every member of a Sorted Set is associated with a score, that is used in order to take the sorted set ordered, from the smallest to the greatest score.
+While members are unique, the scores may be repeated.
+
+127.0.0.1:6379> zadd pepperGoList 0 redis
+(integer) 1
+127.0.0.1:6379> zadd pepperGoList 0 mongodb
+(integer) 1
+127.0.0.1:6379> zadd pepperGoList 0 rabitmq
+(integer) 1
+127.0.0.1:6379> zadd pepperGoList 0 redis
+(integer) 0
+127.0.0.1:6379> zrangebyscore pepperGoList 0 1000
+1) "mongodb"
+2) "rabitmq"
+3) "redis"

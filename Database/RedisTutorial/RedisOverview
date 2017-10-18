@@ -1,0 +1,47 @@
+What is redis?(REmote Ditionary Server)
+Redis is an open source, BSD licensed, advanced key-value store.
+An in-memory key-value store, with persistence.
+Open source.
+Written in C.
+NoSQL database.
+
+Redis is an open source, advanced key-value store and an apt solution for building highperformance, scalable web applications.
+(can function as a NoSQL database or as a memory-cache store to improve performance when serving data that is stored in system memory)
+Redis has three main peculiarities that sets it apart:
+1. Redis holds its database entirely in the memory, using the disk only for persistence.
+2. Redis has a relatively rich set of data types when compared to many key-value data stores.
+3. Redis can replicate data to any number of slaves.
+
+How to interact with Redis?
+Once installed in a server, run the Redis CLI(Command Line Interface) to issue commands to Redis. While working on the CLI tool, the command-line prompt will change to:
+redis>
+
+Operation System:
+Windows
+The Redis project does not officially support Windows. However, the Microsoft Open Tech group develops and maintains this Windows port targeting Win64.(Till to now Sep.26 2017)
+(https://github.com/MicrosoftArchive/redis  -> https://github.com/MicrosoftArchive/redis/releases)
+
+For windows:
+Start Server:
+D:\Program\Redis\Redis-x64-3.2.100>redis-server.exe redis.windows.conf
+
+Start Client:
+redis-cli.exe
+
+In Client:
+redis 127.0.0.1:6379>
+In the above prompt, 127.0.0.1 is your machine's IP address and 6379 is the port on which Redis server is running. Now type the following PING command.
+
+redis 127.0.0.1:6379> ping 
+PONG
+This shows that Redis is successfully installed on your machine.
+
+127.0.0.1:6379> set name Mark
+OK
+// Set the key name and its value is Mark
+
+127.0.0.1:6379> get name
+"Mark"
+
+
+
