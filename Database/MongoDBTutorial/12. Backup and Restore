@@ -1,0 +1,57 @@
+Back up
+
+1. open cmd1 --> mongod
+2. open cmd2 --> mongo
+3. open cmd3(Run as administrator) --> cd S:\\..\MongoDB\Server\3.4\bin
+4. cmd2 --> show dbs
+5.a cmd3 --> mongodump (All databases)
+//
+2017-09-11T00:06:35.013-0500    writing admin.system.version to
+2017-09-11T00:06:35.019-0500    done dumping admin.system.version (1 document)
+2017-09-11T00:06:35.019-0500    writing company.employees to
+2017-09-11T00:06:35.023-0500    done dumping company.employees (8 documents)
+
+5.b cmd3 --> mongodump --db company (Single database)
+//
+2017-09-11T00:13:10.331-0500    writing company.employees to
+2017-09-11T00:13:10.415-0500    done dumping company.employees (8 documents)
+
+5.c cmd3 --> mongodump --db company --collection employees (Single collection)
+//
+2017-09-11T00:19:24.991-0500    writing company.employees to
+2017-09-11T00:19:24.994-0500    done dumping company.employees (8 documents)
+
+---------------------------------------------------------------------------------------
+Restore
+1. cmd2 --> use company -->db.dropDatabase() --> show dbs
+2.a cmd3(Run as administrator) --> mongorestore(All databases)
+//
+2017-09-11T00:11:06.895-0500    using default 'dump' directory
+2017-09-11T00:11:06.896-0500    preparing collections to restore from
+2017-09-11T00:11:06.921-0500    reading metadata for company.employees from dump\company\employees.metadata.json
+2017-09-11T00:11:07.028-0500    restoring company.employees from dump\company\employees.bson
+2017-09-11T00:11:07.032-0500    no indexes to restore
+2017-09-11T00:11:07.032-0500    finished restoring company.employees (8 documents)
+2017-09-11T00:11:07.033-0500    done
+
+2.b cmd3(Run as administrator) --> mongorestore --db company dump/company
+//
+2017-09-11T00:15:50.599-0500    the --db and --collection args should only be used when restoring from a BSON file. Other uses are deprecated and will not exist in the future; use --nsInclude instead
+2017-09-11T00:15:50.672-0500    building a list of collections to restore from dump\company dir
+2017-09-11T00:15:50.672-0500    reading metadata for company.employees from dump\company\employees.metadata.json
+2017-09-11T00:15:50.805-0500    restoring company.employees from dump\company\employees.bson
+2017-09-11T00:15:50.808-0500    no indexes to restore
+2017-09-11T00:15:50.808-0500    finished restoring company.employees (8 documents)
+2017-09-11T00:15:50.808-0500    done
+
+2.c cmd3(Run as administrator) --> mongorestore --db company --collection employees dump/company/employees.bson
+//
+2017-09-11T00:22:05.264-0500    checking for collection data in dump\company\employees.bson
+2017-09-11T00:22:05.266-0500    reading metadata for company.employees from dump\company\employees.metadata.json
+2017-09-11T00:22:05.421-0500    restoring company.employees from dump\company\employees.bson
+2017-09-11T00:22:05.484-0500    no indexes to restore
+2017-09-11T00:22:05.484-0500    finished restoring company.employees (8 documents)
+2017-09-11T00:22:05.485-0500    done
+
+3. cmd2 --> show dbs
+

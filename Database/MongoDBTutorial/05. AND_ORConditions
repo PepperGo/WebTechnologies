@@ -1,0 +1,272 @@
+db
+//admin
+
+use company
+//switched to db company
+
+db.employees.find().pretty()
+//{ 
+    "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "80000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b6fe"), 
+    "EmpNo" : "2", 
+    "FirstName" : "Brian", 
+    "LastName" : "Hall", 
+    "Age" : "27", 
+    "Gender" : "Male", 
+    "Skill" : "Javascript", 
+    "Phone" : "408-1298367", 
+    "Email" : "Brian.Hall@gmail.com", 
+    "Salary" : "60000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b6ff"), 
+    "EmpNo" : "3", 
+    "FirstName" : "Chris", 
+    "LastName" : "White", 
+    "Age" : "40", 
+    "Gender" : "Male", 
+    "Skill" : "Python", 
+    "Phone" : "408-4444567", 
+    "Email" : "Chris.White@gmail.com", 
+    "Salary" : "100000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b700"), 
+    "EmpNo" : "4", 
+    "FirstName" : "Debbie", 
+    "LastName" : "Long", 
+    "Age" : "32", 
+    "Gender" : "Female", 
+    "Skill" : "Project Management", 
+    "Phone" : "408-1299963", 
+    "Email" : "Debbie.Long@gmail.com", 
+    "Salary" : "105000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b701"), 
+    "EmpNo" : "5", 
+    "FirstName" : "Ethan", 
+    "LastName" : "Murphy", 
+    "Age" : "45", 
+    "Gender" : "Male", 
+    "Skill" : "C#", 
+    "Phone" : "408-3314567", 
+    "Email" : "Ethan.Murphy@gmail.com", 
+    "Salary" : "120000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b702"), 
+    "EmpNo" : "6", 
+    "FirstName" : "Felicia", 
+    "LastName" : "Lee", 
+    "Age" : "33", 
+    "Gender" : "Female", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-8832567", 
+    "Email" : "Felicia.Lee@gmail.com", 
+    "Salary" : "85000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b703"), 
+    "EmpNo" : "7", 
+    "FirstName" : "George", 
+    "LastName" : "Cyrus", 
+    "Age" : "36", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-9984567", 
+    "Email" : "George.Cyrus@gmail.com", 
+    "Salary" : "88000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b704"), 
+    "EmpNo" : "8", 
+    "FirstName" : "Hannah", 
+    "LastName" : "Johnson", 
+    "Age" : "26", 
+    "Gender" : "Female", 
+    "Skill" : "AngularJS", 
+    "Phone" : "408-7654321", 
+    "Email" : "Hannah.Johnson@gmail.com", 
+    "Salary" : "72000"
+}
+
+db.employees.find({
+    "Skill":"MongoDB"
+}).pretty()
+//
+{ 
+    "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "80000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b702"), 
+    "EmpNo" : "6", 
+    "FirstName" : "Felicia", 
+    "LastName" : "Lee", 
+    "Age" : "33", 
+    "Gender" : "Female", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-8832567", 
+    "Email" : "Felicia.Lee@gmail.com", 
+    "Salary" : "85000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b703"), 
+    "EmpNo" : "7", 
+    "FirstName" : "George", 
+    "LastName" : "Cyrus", 
+    "Age" : "36", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-9984567", 
+    "Email" : "George.Cyrus@gmail.com", 
+    "Salary" : "88000"
+}
+---------------------------------------------------- And ----------------------------------------------------------
+* In the find() method, if you pass multiple keys by separating them by ',' then MongoDB treats it as AND condition.
+/*
+Following is the basic syntax of AND −
+>db.mycol.find(
+   {
+      $and: [
+         {key1: value1}, {key2:value2}
+      ]
+   }
+).pretty()
+*/
+
+db.employees.find({
+    "Skill":"MongoDB", "Salary":"80000"
+}).pretty()
+//
+{ 
+    "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "80000"
+}
+
+----------------------------------------- Or -----------------------------------------------
+
+* Oo query documents based on the OR condition, you need to use $or keyword. Following is the basic syntax of OR −
+/*
+>db.mycol.find(
+   {
+      $or: [
+         {key1: value1}, {key2:value2}
+      ]
+   }
+).pretty()
+*/
+
+db.employees.find({
+    $or:[{"Skill":"MongoDB"},{"Salary":"100000"}]
+}).pretty()
+//
+{ 
+    "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "80000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b6ff"), 
+    "EmpNo" : "3", 
+    "FirstName" : "Chris", 
+    "LastName" : "White", 
+    "Age" : "40", 
+    "Gender" : "Male", 
+    "Skill" : "Python", 
+    "Phone" : "408-4444567", 
+    "Email" : "Chris.White@gmail.com", 
+    "Salary" : "100000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b702"), 
+    "EmpNo" : "6", 
+    "FirstName" : "Felicia", 
+    "LastName" : "Lee", 
+    "Age" : "33", 
+    "Gender" : "Female", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-8832567", 
+    "Email" : "Felicia.Lee@gmail.com", 
+    "Salary" : "85000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b703"), 
+    "EmpNo" : "7", 
+    "FirstName" : "George", 
+    "LastName" : "Cyrus", 
+    "Age" : "36", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-9984567", 
+    "Email" : "George.Cyrus@gmail.com", 
+    "Salary" : "88000"
+}
+
+
+db.employees.find({
+     "Skill":"MongoDB", $or:[{"Salary":"80000"},{"Salary":"85000"}]
+}).pretty()
+//{ 
+    "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "80000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b702"), 
+    "EmpNo" : "6", 
+    "FirstName" : "Felicia", 
+    "LastName" : "Lee", 
+    "Age" : "33", 
+    "Gender" : "Female", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-8832567", 
+    "Email" : "Felicia.Lee@gmail.com", 
+    "Salary" : "85000"
+}
+
+
+
+

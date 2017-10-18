@@ -1,0 +1,93 @@
+db
+
+*To limit the records in MongoDB, you need to use limit() method. The method accepts one number type argument, which is the number of documents that you want to be displayed.
+*The basic syntax of limit() method is as follows −
+
+>db.COLLECTION_NAME.find().limit(NUMBER)
+
+* There is one more method skip() which also accepts number type argument and is used to skip the number of documents.
+* The basic syntax of skip() method is as follows −
+
+>db.COLLECTION_NAME.find().limit(NUMBER).skip(NUMBER)
+
+To sort documents in MongoDB, you need to use sort() method. The method accepts a document containing a list of fields along with their sorting order. To specify sorting order 1 and -1 are used. 1 is used for ascending order while -1 is used for descending order.
+The basic syntax of sort() method is as follows −
+
+>db.COLLECTION_NAME.find().sort({KEY:1})
+
+// descending order: KEY: -1
+------------------------------------------------------
+db.employees.find().pretty()
+
+db.employees.find({},{"FirstName":1, "EmpNo":1, "_id": 0}).pretty()
+
+db.employees.find({},{"FirstName":1, "EmpNo":1, "_id": 0}).pretty().limit(5)
+//
+{ 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew"
+}
+{ 
+    "EmpNo" : "2", 
+    "FirstName" : "Brian"
+}
+{ 
+    "EmpNo" : "3", 
+    "FirstName" : "Chris"
+}
+{ 
+    "EmpNo" : "4", 
+    "FirstName" : "Debbie"
+}
+{ 
+    "EmpNo" : "5", 
+    "FirstName" : "Ethan"
+}
+
+
+db.employees.find({},{"FirstName":1, "EmpNo":1, "_id": 0}).pretty().skip(3)
+//
+{ 
+    "EmpNo" : "4", 
+    "FirstName" : "Debbie"
+}
+{ 
+    "EmpNo" : "5", 
+    "FirstName" : "Ethan"
+}
+{ 
+    "EmpNo" : "6", 
+    "FirstName" : "Felicia"
+}
+{ 
+    "EmpNo" : "7", 
+    "FirstName" : "George"
+}
+{ 
+    "EmpNo" : "8", 
+    "FirstName" : "Hannah"
+}
+
+
+
+db.employees.find({},{"FirstName":1, "EmpNo":1, "_id": 0}).pretty().skip(3).limit(3)
+//
+{ 
+    "EmpNo" : "4", 
+    "FirstName" : "Debbie"
+}
+{ 
+    "EmpNo" : "5", 
+    "FirstName" : "Ethan"
+}
+{ 
+    "EmpNo" : "6", 
+    "FirstName" : "Felicia"
+}
+
+
+db.employees.find({},{"FirstName":1, "EmpNo":1, "_id": 0}).pretty().sort({"FirstName": 1})
+
+
+
+db.employees.find({},{"FirstName":1, "EmpNo":1, "_id": 0}).pretty().sort({"FirstName": -1})

@@ -1,0 +1,179 @@
+Aggregations operations process data records and return computed results. Aggregation operations group values from multiple documents together, and can perform a variety of operations on the grouped data to return a single result. In SQL count(*) and with group by is an equivalent of mongodb aggregation.
+
+The aggregate() Method
+For the aggregation in MongoDB, you should use aggregate() method.
+
+Syntax
+Basic syntax of aggregate() method is as follows −
+
+>db.COLLECTION_NAME.aggregate(AGGREGATE_OPERATION)
+------------------------------------------------------------------------------------
+db.employees.find()
+//
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd1"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "80000"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd2"), 
+    "EmpNo" : "2", 
+    "FirstName" : "Brian", 
+    "LastName" : "Hall", 
+    "Age" : "27", 
+    "Gender" : "Male", 
+    "Skill" : "Javascript", 
+    "Phone" : "408-1298367", 
+    "Email" : "Brian.Hall@gmail.com", 
+    "Salary" : "60000"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd3"), 
+    "EmpNo" : "3", 
+    "FirstName" : "Chris", 
+    "LastName" : "White", 
+    "Age" : "40", 
+    "Gender" : "Male", 
+    "Skill" : "Python", 
+    "Phone" : "408-4444567", 
+    "Email" : "Chris.White@gmail.com", 
+    "Salary" : "100000"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd4"), 
+    "EmpNo" : "4", 
+    "FirstName" : "Debbie", 
+    "LastName" : "Long", 
+    "Age" : "32", 
+    "Gender" : "Female", 
+    "Skill" : "Project Management", 
+    "Phone" : "408-1299963", 
+    "Email" : "Debbie.Long@gmail.com", 
+    "Salary" : "105000"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd5"), 
+    "EmpNo" : "5", 
+    "FirstName" : "Ethan", 
+    "LastName" : "Murphy", 
+    "Age" : "45", 
+    "Gender" : "Male", 
+    "Skill" : "C#", 
+    "Phone" : "408-3314567", 
+    "Email" : "Ethan.Murphy@gmail.com", 
+    "Salary" : "120000"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd6"), 
+    "EmpNo" : "6", 
+    "FirstName" : "Felicia", 
+    "LastName" : "Lee", 
+    "Age" : "33", 
+    "Gender" : "Female", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-8832567", 
+    "Email" : "Felicia.Lee@gmail.com", 
+    "Salary" : "85000"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd7"), 
+    "EmpNo" : "7", 
+    "FirstName" : "George", 
+    "LastName" : "Cyrus", 
+    "Age" : "36", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-9984567", 
+    "Email" : "George.Cyrus@gmail.com", 
+    "Salary" : "88000"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd8"), 
+    "EmpNo" : "8", 
+    "FirstName" : "Hannah", 
+    "LastName" : "Johnson", 
+    "Age" : "26", 
+    "Gender" : "Female", 
+    "Skill" : "AngularJS", 
+    "Phone" : "408-7654321", 
+    "Email" : "Hannah.Johnson@gmail.com", 
+    "Salary" : "72000"
+}
+
+
+db.employees.aggregate([{$group:{_id:"$Gender",Total: {$sum : 1}}}])
+//
+{ 
+    "_id" : "Female", 
+    "Total" : 3.0
+}
+{ 
+    "_id" : "Male", 
+    "Total" : 5.0
+}
+
+db.employees.aggregate([{$group:{_id:"$FirstName",Num: {$sum : 1}}}])
+
+{ 
+    "_id" : "George", 
+    "Num" : 1.0
+}
+{ 
+    "_id" : "Felicia", 
+    "Num" : 1.0
+}
+{ 
+    "_id" : "Ethan", 
+    "Num" : 1.0
+}
+{ 
+    "_id" : "Hannah", 
+    "Num" : 1.0
+}
+{ 
+    "_id" : "Chris", 
+    "Num" : 1.0
+}
+{ 
+    "_id" : "Brian", 
+    "Num" : 1.0
+}
+{ 
+    "_id" : "Debbie", 
+    "Num" : 1.0
+}
+{ 
+    "_id" : "Andrew", 
+    "Num" : 1.0
+}
+
+db.employees.aggregate([{$group:{_id:"$Gender",MaxAge: {$max : "$Age"}}}])
+//
+{ 
+    "_id" : "Female", 
+    "MaxAge" : "33"
+}
+{ 
+    "_id" : "Male", 
+    "MaxAge" : "45"
+}
+
+
+db.employees.aggregate([{$group:{_id:"$Gender",MaxAge: {$min : "$Age"}}}])
+//
+{ 
+    "_id" : "Female", 
+    "MaxAge" : "26"
+}
+{ 
+    "_id" : "Male", 
+    "MaxAge" : "27"
+}
+

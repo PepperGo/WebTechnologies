@@ -1,0 +1,8 @@
+D:\>mongod
+I NETWORK  [thread1] waiting for connections on port 27017
+
+D:\>mongod
+
+or 
+
+In Studio 3T : Connect --> New Connection

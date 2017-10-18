@@ -1,0 +1,23 @@
+*Basic syntax of createCollection() method without options is as follows
+db.createCollection("Test")
+//{ 
+    "ok" : 1.0
+}
+
+*Check the created collection by using the command show collections
+show collections
+//
+Test
+system.version
+
+* MongoDB creates collection automatically, when you insert some document.
+db.newcollection.insert({"Name": "Test"})
+//
+Test
+newcollection
+system.version
+
+* drop the collection with the name mycollection
+db.newcollection.drop()
+db.Test.drop()
+//true

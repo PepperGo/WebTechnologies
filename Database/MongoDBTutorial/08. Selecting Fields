@@ -1,0 +1,99 @@
+
+
+db.employees.find({},{"FirstName": 1}).pretty()
+// 1 means select, 0 means do not select
+// "_id" field is selected by default
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd1"), 
+    "FirstName" : "Andrew"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd2"), 
+    "FirstName" : "Brian"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd3"), 
+    "FirstName" : "Chris"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd4"), 
+    "FirstName" : "Debbie"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd5"), 
+    "FirstName" : "Ethan"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd6"), 
+    "FirstName" : "Felicia"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd7"), 
+    "FirstName" : "George"
+}
+{ 
+    "_id" : ObjectId("59b4094caba92b73bdadfdd8"), 
+    "FirstName" : "Hannah"
+}
+
+db.employees.find({},{"FirstName": 1, "_id":0}).pretty()
+//
+{ 
+    "FirstName" : "Andrew"
+}
+{ 
+    "FirstName" : "Brian"
+}
+{ 
+    "FirstName" : "Chris"
+}
+{ 
+    "FirstName" : "Debbie"
+}
+{ 
+    "FirstName" : "Ethan"
+}
+{ 
+    "FirstName" : "Felicia"
+}
+{ 
+    "FirstName" : "George"
+}
+{ 
+    "FirstName" : "Hannah"
+}
+
+db.employees.find({},{"FirstName": 1,"LastName": 1, "_id":0}).pretty()
+//
+{ 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil"
+}
+{ 
+    "FirstName" : "Brian", 
+    "LastName" : "Hall"
+}
+{ 
+    "FirstName" : "Chris", 
+    "LastName" : "White"
+}
+{ 
+    "FirstName" : "Debbie", 
+    "LastName" : "Long"
+}
+{ 
+    "FirstName" : "Ethan", 
+    "LastName" : "Murphy"
+}
+{ 
+    "FirstName" : "Felicia", 
+    "LastName" : "Lee"
+}
+{ 
+    "FirstName" : "George", 
+    "LastName" : "Cyrus"
+}
+{ 
+    "FirstName" : "Hannah", 
+    "LastName" : "Johnson"
+}

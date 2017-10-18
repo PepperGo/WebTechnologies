@@ -1,0 +1,41 @@
+Database -> Collections -> Documents
+
+*If you want to create a database with name <mydb>, then use DATABASE statement would be as follows
+use testdb
+//switched to db testdb
+
+*To check your currently selected database, use the command db
+db
+//testdb
+
+*If you want to check your databases list, use the command show dbs.
+show dbs
+//
+admin  0.000GB
+local  0.000GB
+
+*Your created database (mydb) is not present in list. To display database, you need to insert at least one document into it.
+db.testcollection.insert({"Name" : "Tutorial"})
+//WriteResult({ "nInserted" : 1 })
+
+
+show dbs
+//
+admin   0.000GB
+local   0.000GB
+testdb  0.000GB
+
+*MongoDB db.dropDatabase() command is used to drop a existing database.
+db.dropDatabase()
+//
+
+{ 
+    "dropped" : "testdb", 
+    "ok" : 1.0
+}
+
+show dbs
+//
+admin  0.000GB
+local  0.000GB
+

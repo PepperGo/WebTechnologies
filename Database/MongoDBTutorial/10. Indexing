@@ -1,0 +1,72 @@
+Indexes support the efficient resolution of queries. Without indexes, MongoDB must scan every document of a collection to select those documents that match the query statement. This scan is highly inefficient and require MongoDB to process a large volume of data.
+
+Indexes are special data structures, that store a small portion of the data set in an easy-to-traverse form. The index stores the value of a specific field or set of fields, ordered by the value of the field as specified in the index.
+
+Syntax
+The basic syntax of ensureIndex() method is as follows().
+
+>db.COLLECTION_NAME.ensureIndex({KEY:1})
+Here key is the name of the field on which you want to create index and 1 is for ascending order.
+
+------------------------------------------------------------------------------------------------------------
+
+
+db.employees.getIndexes()
+//
+[
+    {
+        "v" : 2.0, 
+        "key" : {
+            "_id" : 1.0
+        }, 
+        "name" : "_id_", 
+        "ns" : "company.employees"
+    }
+]
+
+
+
+db.employees.ensureIndex({"Email": 1})
+//
+{ 
+    "createdCollectionAutomatically" : false, 
+    "numIndexesBefore" : 1.0, 
+    "numIndexesAfter" : 2.0, 
+    "ok" : 1.0
+}
+
+
+
+
+db.employees.getIndexes()
+//
+[
+    {
+        "v" : 2.0, 
+        "key" : {
+            "_id" : 1.0
+        }, 
+        "name" : "_id_", 
+        "ns" : "company.employees"
+    }, 
+    {
+        "v" : 2.0, 
+        "key" : {
+            "Email" : 1.0
+        }, 
+        "name" : "Email_1", 
+        "ns" : "company.employees"
+    }
+]
+
+
+
+
+db.employees.dropIndex({"Email": 1})
+//
+{ 
+    "nIndexesWas" : 2.0, 
+    "ok" : 1.0
+}
+
+

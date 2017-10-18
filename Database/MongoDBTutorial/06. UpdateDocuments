@@ -1,0 +1,106 @@
+The basic syntax of update() method is as follows −
+
+>db.COLLECTION_NAME.update(SELECTION_CRITERIA, UPDATED_DATA)
+
+
+db
+
+use company
+
+db.employees.find(
+{"_id" : ObjectId("59b3735a0e33db88dba4b6fd")}
+).pretty()
+//
+{ 
+    "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "80000"
+}
+
+
+db.employees.update(
+  {"_id" : ObjectId("59b3735a0e33db88dba4b6fd")},
+  {$set: {"Salary":"90000"}}
+)
+//WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+
+
+db.employees.find(
+{"_id" : ObjectId("59b3735a0e33db88dba4b6fd")}
+).pretty()
+//
+{ 
+    "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "90000"
+}
+
+
+db.employees.update(
+   {"Skill":"MongoDB"},
+   {$set:{"Salary":"150000"}}
+)
+//WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+//"nModified" : 1:
+//only change the first document
+
+db.employees.update(
+   {"Skill":"MongoDB"},
+   {$set:{"Salary":"150000"}},
+   {multi:true}
+)
+//WriteResult({ "nMatched" : 3, "nUpserted" : 0, "nModified" : 3 })
+//Three documents match, and three documents were modified
+
+db.employees.find({"Skill":"MongoDB"}).pretty()
+//{ 
+    "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "150000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b702"), 
+    "EmpNo" : "6", 
+    "FirstName" : "Felicia", 
+    "LastName" : "Lee", 
+    "Age" : "33", 
+    "Gender" : "Female", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-8832567", 
+    "Email" : "Felicia.Lee@gmail.com", 
+    "Salary" : "150000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b703"), 
+    "EmpNo" : "7", 
+    "FirstName" : "George", 
+    "LastName" : "Cyrus", 
+    "Age" : "36", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-9984567", 
+    "Email" : "George.Cyrus@gmail.com", 
+    "Salary" : "150000"
+}
+

@@ -1,0 +1,297 @@
+*To query data from MongoDB collection, you need to use MongoDB's find() method.
+db.employees.find()
+//
+{ 
+    "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "80000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b6fe"), 
+    "EmpNo" : "2", 
+    "FirstName" : "Brian", 
+    "LastName" : "Hall", 
+    "Age" : "27", 
+    "Gender" : "Male", 
+    "Skill" : "Javascript", 
+    "Phone" : "408-1298367", 
+    "Email" : "Brian.Hall@gmail.com", 
+    "Salary" : "60000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b6ff"), 
+    "EmpNo" : "3", 
+    "FirstName" : "Chris", 
+    "LastName" : "White", 
+    "Age" : "40", 
+    "Gender" : "Male", 
+    "Skill" : "Python", 
+    "Phone" : "408-4444567", 
+    "Email" : "Chris.White@gmail.com", 
+    "Salary" : "100000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b700"), 
+    "EmpNo" : "4", 
+    "FirstName" : "Debbie", 
+    "LastName" : "Long", 
+    "Age" : "32", 
+    "Gender" : "Female", 
+    "Skill" : "Project Management", 
+    "Phone" : "408-1299963", 
+    "Email" : "Debbie.Long@gmail.com", 
+    "Salary" : "105000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b701"), 
+    "EmpNo" : "5", 
+    "FirstName" : "Ethan", 
+    "LastName" : "Murphy", 
+    "Age" : "45", 
+    "Gender" : "Male", 
+    "Skill" : "C#", 
+    "Phone" : "408-3314567", 
+    "Email" : "Ethan.Murphy@gmail.com", 
+    "Salary" : "120000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b702"), 
+    "EmpNo" : "6", 
+    "FirstName" : "Felicia", 
+    "LastName" : "Lee", 
+    "Age" : "33", 
+    "Gender" : "Female", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-8832567", 
+    "Email" : "Felicia.Lee@gmail.com", 
+    "Salary" : "85000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b703"), 
+    "EmpNo" : "7", 
+    "FirstName" : "George", 
+    "LastName" : "Cyrus", 
+    "Age" : "36", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-9984567", 
+    "Email" : "George.Cyrus@gmail.com", 
+    "Salary" : "88000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b704"), 
+    "EmpNo" : "8", 
+    "FirstName" : "Hannah", 
+    "LastName" : "Johnson", 
+    "Age" : "26", 
+    "Gender" : "Female", 
+    "Skill" : "AngularJS", 
+    "Phone" : "408-7654321", 
+    "Email" : "Hannah.Johnson@gmail.com", 
+    "Salary" : "72000"
+}
+
+
+* In command Prompt
+D:\>mongo
+MongoDB shell version v3.4.7
+connecting to: mongodb://127.0.0.1:27017
+MongoDB server version: 3.4.7
+Server has startup warnings:
+2017-09-08T23:15:55.297-0500 I CONTROL  [initandlisten]
+2017-09-08T23:15:55.297-0500 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-09-08T23:15:55.297-0500 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-09-08T23:15:55.297-0500 I CONTROL  [initandlisten]
+
+
+>
+>
+> db
+test
+> use company
+switched to db company
+> db.employees.find()
+{ "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), "EmpNo" : "1", "FirstName" : "Andrew", "LastName" : "Neil", "Age" : "30", "Gender" : "Male", "Skill" : "MongoDB", "Phone" : "408-1234567", "Email" : "Andrew.Neil@gmail.com", "Salary" : "80000" }
+{ "_id" : ObjectId("59b373f40e33db88dba4b6fe"), "EmpNo" : "2", "FirstName" : "Brian", "LastName" : "Hall", "Age" : "27", "Gender" : "Male", "Skill" : "Javascript", "Phone" : "408-1298367", "Email" : "Brian.Hall@gmail.com", "Salary" : "60000" }
+{ "_id" : ObjectId("59b373f40e33db88dba4b6ff"), "EmpNo" : "3", "FirstName" : "Chris", "LastName" : "White", "Age" : "40", "Gender" : "Male", "Skill" : "Python", "Phone" : "408-4444567", "Email" : "Chris.White@gmail.com", "Salary" : "100000" }
+{ "_id" : ObjectId("59b373f40e33db88dba4b700"), "EmpNo" : "4", "FirstName" : "Debbie", "LastName" : "Long", "Age" : "32", "Gender" : "Female", "Skill" : "Project Management", "Phone" : "408-1299963", "Email" : "Debbie.Long@gmail.com", "Salary" : "105000" }
+{ "_id" : ObjectId("59b373f40e33db88dba4b701"), "EmpNo" : "5", "FirstName" : "Ethan", "LastName" : "Murphy", "Age" : "45", "Gender" : "Male", "Skill" : "C#", "Phone" : "408-3314567", "Email" : "Ethan.Murphy@gmail.com", "Salary" : "120000" }
+{ "_id" : ObjectId("59b373f40e33db88dba4b702"), "EmpNo" : "6", "FirstName" : "Felicia", "LastName" : "Lee", "Age" : "33", "Gender" : "Female", "Skill" : "MongoDB", "Phone" : "408-8832567", "Email" : "Felicia.Lee@gmail.com", "Salary" : "85000" }
+{ "_id" : ObjectId("59b373f40e33db88dba4b703"), "EmpNo" : "7", "FirstName" : "George", "LastName" : "Cyrus", "Age" : "36", "Gender" : "Male", "Skill" : "MongoDB", "Phone" : "408-9984567", "Email" : "George.Cyrus@gmail.com", "Salary" : "88000" }
+{ "_id" : ObjectId("59b373f40e33db88dba4b704"), "EmpNo" : "8", "FirstName" : "Hannah", "LastName" : "Johnson", "Age" : "26", "Gender" : "Female", "Skill" : "AngularJS", "Phone" : "408-7654321", "Email" : "Hannah.Johnson@gmail.com", "Salary" : "72000" }
+> db.employees.find().pretty()
+{
+        "_id" : ObjectId("59b3735a0e33db88dba4b6fd"),
+        "EmpNo" : "1",
+        "FirstName" : "Andrew",
+        "LastName" : "Neil",
+        "Age" : "30",
+        "Gender" : "Male",
+        "Skill" : "MongoDB",
+        "Phone" : "408-1234567",
+        "Email" : "Andrew.Neil@gmail.com",
+        "Salary" : "80000"
+}
+{
+        "_id" : ObjectId("59b373f40e33db88dba4b6fe"),
+        "EmpNo" : "2",
+        "FirstName" : "Brian",
+        "LastName" : "Hall",
+        "Age" : "27",
+        "Gender" : "Male",
+        "Skill" : "Javascript",
+        "Phone" : "408-1298367",
+        "Email" : "Brian.Hall@gmail.com",
+        "Salary" : "60000"
+}
+{
+        "_id" : ObjectId("59b373f40e33db88dba4b6ff"),
+        "EmpNo" : "3",
+        "FirstName" : "Chris",
+        "LastName" : "White",
+        "Age" : "40",
+        "Gender" : "Male",
+        "Skill" : "Python",
+        "Phone" : "408-4444567",
+        "Email" : "Chris.White@gmail.com",
+        "Salary" : "100000"
+}
+{
+        "_id" : ObjectId("59b373f40e33db88dba4b700"),
+        "EmpNo" : "4",
+        "FirstName" : "Debbie",
+        "LastName" : "Long",
+        "Age" : "32",
+        "Gender" : "Female",
+        "Skill" : "Project Management",
+        "Phone" : "408-1299963",
+        "Email" : "Debbie.Long@gmail.com",
+        "Salary" : "105000"
+}
+{
+        "_id" : ObjectId("59b373f40e33db88dba4b701"),
+        "EmpNo" : "5",
+        "FirstName" : "Ethan",
+        "LastName" : "Murphy",
+        "Age" : "45",
+        "Gender" : "Male",
+        "Skill" : "C#",
+        "Phone" : "408-3314567",
+        "Email" : "Ethan.Murphy@gmail.com",
+        "Salary" : "120000"
+}
+{
+        "_id" : ObjectId("59b373f40e33db88dba4b702"),
+        "EmpNo" : "6",
+        "FirstName" : "Felicia",
+        "LastName" : "Lee",
+        "Age" : "33",
+        "Gender" : "Female",
+        "Skill" : "MongoDB",
+        "Phone" : "408-8832567",
+        "Email" : "Felicia.Lee@gmail.com",
+        "Salary" : "85000"
+}
+{
+        "_id" : ObjectId("59b373f40e33db88dba4b703"),
+        "EmpNo" : "7",
+        "FirstName" : "George",
+        "LastName" : "Cyrus",
+        "Age" : "36",
+        "Gender" : "Male",
+        "Skill" : "MongoDB",
+        "Phone" : "408-9984567",
+        "Email" : "George.Cyrus@gmail.com",
+        "Salary" : "88000"
+}
+{
+        "_id" : ObjectId("59b373f40e33db88dba4b704"),
+        "EmpNo" : "8",
+        "FirstName" : "Hannah",
+        "LastName" : "Johnson",
+        "Age" : "26",
+        "Gender" : "Female",
+        "Skill" : "AngularJS",
+        "Phone" : "408-7654321",
+        "Email" : "Hannah.Johnson@gmail.com",
+        "Salary" : "72000"
+}
+>
+
+* In Studio 3T
+db.employees.findOne()
+//
+{ 
+    "_id" : ObjectId("59b3735a0e33db88dba4b6fd"), 
+    "EmpNo" : "1", 
+    "FirstName" : "Andrew", 
+    "LastName" : "Neil", 
+    "Age" : "30", 
+    "Gender" : "Male", 
+    "Skill" : "MongoDB", 
+    "Phone" : "408-1234567", 
+    "Email" : "Andrew.Neil@gmail.com", 
+    "Salary" : "80000"
+}
+
+db.employees.find({
+        "EmpNo" : "2"
+})
+//
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b6fe"), 
+    "EmpNo" : "2", 
+    "FirstName" : "Brian", 
+    "LastName" : "Hall", 
+    "Age" : "27", 
+    "Gender" : "Male", 
+    "Skill" : "Javascript", 
+    "Phone" : "408-1298367", 
+    "Email" : "Brian.Hall@gmail.com", 
+    "Salary" : "60000"
+}
+
+
+db.employees.find({
+        "Age" : {$lt: "30"}
+})
+//
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b6fe"), 
+    "EmpNo" : "2", 
+    "FirstName" : "Brian", 
+    "LastName" : "Hall", 
+    "Age" : "27", 
+    "Gender" : "Male", 
+    "Skill" : "Javascript", 
+    "Phone" : "408-1298367", 
+    "Email" : "Brian.Hall@gmail.com", 
+    "Salary" : "60000"
+}
+{ 
+    "_id" : ObjectId("59b373f40e33db88dba4b704"), 
+    "EmpNo" : "8", 
+    "FirstName" : "Hannah", 
+    "LastName" : "Johnson", 
+    "Age" : "26", 
+    "Gender" : "Female", 
+    "Skill" : "AngularJS", 
+    "Phone" : "408-7654321", 
+    "Email" : "Hannah.Johnson@gmail.com", 
+    "Salary" : "72000"
+}
+
+
+Equality	{<key>:<value>}	db.mycol.find({"by":"tutorials point"}).pretty()	where by = 'tutorials point'
+Less Than	{<key>:{$lt:<value>}}	db.mycol.find({"likes":{$lt:50}}).pretty()	where likes < 50
+Less Than Equals	{<key>:{$lte:<value>}}	db.mycol.find({"likes":{$lte:50}}).pretty()	where likes <= 50
+Greater Than	{<key>:{$gt:<value>}}	db.mycol.find({"likes":{$gt:50}}).pretty()	where likes > 50
+Greater Than Equals	{<key>:{$gte:<value>}}	db.mycol.find({"likes":{$gte:50}}).pretty()	where likes >= 50
+Not Equals	{<key>:{$ne:<value>}}	db.mycol.find({"likes":{$ne:50}}).pretty()	where likes != 50

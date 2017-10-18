@@ -1,0 +1,21 @@
+Syntax
+Basic syntax of remove() method is as follows −
+>db.COLLECTION_NAME.remove(DELLETION_CRITTERIA)
+
+
+db.employees.find().pretty()
+
+db.employees.remove({
+ "_id" : ObjectId("59b373f40e33db88dba4b6fe"), 
+})
+//WriteResult({ "nRemoved" : 1 })
+
+If there are multiple records and you want to delete only the first record, then set justOne parameter in remove() method.
+
+>db.COLLECTION_NAME.remove(DELETION_CRITERIA,1)
+
+db.employees.remove(
+   {"Skill":"MongoDB"},1
+)
+//1 means delete one document
+//WriteResult({ "nRemoved" : 1 })
