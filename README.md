@@ -32,7 +32,7 @@
 1. Understanding the flow of Spring Web MVC
 2. 
 
-[Developing a Spring Framework MVC application step-by-step](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
+If you want to build a spring framework MVC application: [Developing a Spring Framework MVC application step-by-step](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
 
 [Spring - MVC Framework(TutorialsPoint)](https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm)
 
