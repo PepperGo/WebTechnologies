@@ -28,6 +28,8 @@
 
 ## Framework
 ### Hibernate
+[Hibernate Tutorial(video)](https://www.youtube.com/playlist?list=PLEAQNNR8IlB7fNkRsUgzrR346i-UqE5CG)
+[Hibernate](https://www.youtube.com/playlist?list=PL4AFF701184976B25)
 
 ##### Good Material
 
