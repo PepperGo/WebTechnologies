@@ -27,6 +27,7 @@
 [JSP Tutorial - TutorialsPoint](https://www.google.com/search?q=jsp+tutorial&rlz=1C1CHBD_enUS718US718&oq=jsp+tut&aqs=chrome.0.69i59j69i60l3j69i57j0.3684j0j7&sourceid=chrome&ie=UTF-8) 
 
 ## Framework
+[7 Best Java Frameworks for 2016](https://www.romexsoft.com/blog/7-best-java-frameworks-for-2016/)
 ### Hibernate
 [Hibernate Tutorial(video)](https://www.youtube.com/playlist?list=PLEAQNNR8IlB7fNkRsUgzrR346i-UqE5CG)
 [Hibernate](https://www.youtube.com/playlist?list=PL4AFF701184976B25)
