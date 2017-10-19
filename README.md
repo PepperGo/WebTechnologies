@@ -32,12 +32,13 @@
 1. Understanding the flow of Spring Web MVC
 2. 
 
+Recommend:<br>
 [Web on Servlet Stack(Version 5.0.0.RELEASE)](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc)
 [Green Beans: Getting Started with Spring MVC](https://spring.io/blog/2011/01/04/green-beans-getting-started-with-spring-mvc/)
 [Spring - MVC Framework(TutorialsPoint)](https://www.tutorialspoint.com/springmvc/index.htm)
 
 
-Other materials, not very good, but helpful:<br>
+##### Other materials, not very good, but helpful:<br>
 [Spring MVC Tutorial for Beginners(video)](https://www.youtube.com/watch?v=BjNhGaZDr0Y)   [Github: JavaWebApplicationStepByStep](https://github.com/in28minutes/SpringMvcStepByStep)
 
 If you want to build a spring framework MVC application: [Developing a Spring Framework MVC application step-by-step](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
