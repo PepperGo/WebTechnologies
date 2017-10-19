@@ -37,7 +37,7 @@
 [Spring - MVC Framework(TutorialsPoint)](https://www.tutorialspoint.com/springmvc/index.htm)
 
 
-Other materials, not very good, but helpful:
+Other materials, not very good, but helpful:<br>
 [Spring MVC Tutorial for Beginners(video)](https://www.youtube.com/watch?v=BjNhGaZDr0Y)   [Github: JavaWebApplicationStepByStep](https://github.com/in28minutes/SpringMvcStepByStep)
 
 If you want to build a spring framework MVC application: [Developing a Spring Framework MVC application step-by-step](https://docs.spring.io/docs/Spring-MVC-step-by-step/)
