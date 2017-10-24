@@ -60,6 +60,10 @@ If you want to build a spring framework MVC application: [Developing a Spring Fr
 
 
 ## Database
+
+### JDBC
+[JDBC Tutorial](https://www.tutorialspoint.com/jdbc/)
+
 ### MySQL
 
 ### MongoDB
