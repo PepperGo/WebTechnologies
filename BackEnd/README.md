@@ -127,4 +127,13 @@
 5. Spring MVC - Controller<br>
 [Spring MVC - Multi Action Controller Example](https://www.tutorialspoint.com/springmvc/springmvc_multiactioncontroller.htm)<br>
 [Spring MVC - Properties Method Name Resolver Example](https://www.tutorialspoint.com/springmvc/springmvc_propertiesmethodnameresolver.htm)<br>
-
+[Spring MVC - Parameter Method Name Resolver Example](https://www.tutorialspoint.com/springmvc/springmvc_parametermethodnameresolver.htm)<br>
+[Spring MVC - Parameterizable View Controller Example](https://www.tutorialspoint.com/springmvc/springmvc_parameterizableviewcontroller.htm)<br>
+6. Spring MVC - View Resolver<br>
+[Spring MVC - Internal Resource View Resolver Example](https://www.tutorialspoint.com/springmvc/springmvc_internalresourceviewresolver.htm)<br>
+[Spring MVC - Xml View Resolver Example](https://www.tutorialspoint.com/springmvc/springmvc_xmlviewresolver.htm)<br>
+[Spring MVC - Resource Bundle View Resolver Example](https://www.tutorialspoint.com/springmvc/springmvc_resourcebundleviewresolver.htm)<br>
+[Spring MVC - Multiple Resolver Mapping Example](https://www.tutorialspoint.com/springmvc/springmvc_multiple_resolver_mapping.htm)<br>
+7. Spring MVC - Integration  `important` <br>
+[Spring MVC - Hibernate Validator Example](https://www.tutorialspoint.com/springmvc/springmvc_hibernate_validator.htm)<br>
+[Spring MVC - Generate RSS Feed Example](https://www.tutorialspoint.com/springmvc/springmvc_rss_feed.htm)<br>
