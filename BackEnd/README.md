@@ -9,12 +9,8 @@
 2. Spring Framework - Architecture(Core Container, Data Access/Integration, Web, Miscellaneous)
 3. ClassPathXmlApplicationContext() & getBean() (xml file  <bean> tag)
 4. IoC Containers
-  
-  Java POJO classes --> The Spring container --> Ready to use application(Final result)
-                                ^
-                                |
-                                |
-                            Metadata
+
+![](https://www.tutorialspoint.com/spring/images/spring_ioc_container.jpg)
                             
   Spring provides the following two distinct types of containers
   Spring BeanFactory Container | Spring ApplicationContext Container(recommended)     
