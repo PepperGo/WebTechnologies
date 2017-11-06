@@ -1,5 +1,5 @@
 # Java Servlets/ JSP
-## Serlvet
+## Java Serlvets
 
 
 ## JSP
