@@ -37,8 +37,6 @@
 ### 1. Spring MVC
 Before study spring mvc, it's helpful to learn [Spring Framework](https://www.tutorialspoint.com/spring/index.htm) first. 
 
-1. Understanding the flow of Spring Web MVC
-2. 
 
 Recommend:<br>
 [Web on Servlet Stack(Version 5.0.0.RELEASE)](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc)<br>
