@@ -32,6 +32,8 @@
 ## Framework
 [7 Best Java Frameworks for 2016](https://www.romexsoft.com/blog/7-best-java-frameworks-for-2016/)
 ### 1. Spring MVC
+Before study spring mvc, it's helpful to learn [Spring Framework](https://www.tutorialspoint.com/spring/index.htm) first. 
+
 1. Understanding the flow of Spring Web MVC
 2. 
 
