@@ -137,3 +137,10 @@
 7. Spring MVC - Integration  `important` <br>
 [Spring MVC - Hibernate Validator Example](https://www.tutorialspoint.com/springmvc/springmvc_hibernate_validator.htm)<br>
 [Spring MVC - Generate RSS Feed Example](https://www.tutorialspoint.com/springmvc/springmvc_rss_feed.htm)<br>
+[Spring MVC - Generate XML Example](https://www.tutorialspoint.com/springmvc/springmvc_xml.htm)<br>
+[Spring MVC - Generate JSON Example](https://www.tutorialspoint.com/springmvc/springmvc_json.htm)<br>
+[Spring MVC - Generate Excel Example](https://www.tutorialspoint.com/springmvc/springmvc_excel.htm)<br>
+[Spring MVC - Generate PDF Example](https://www.tutorialspoint.com/springmvc/springmvc_pdf.htm)<br>
+[Spring MVC - Integrate LOG4J Example](https://www.tutorialspoint.com/springmvc/springmvc_log4j.htm)<br>
+
+8. [Interview && Quiz ](https://www.tutorialspoint.com/spring/spring_questions_answers.htm) <br>
