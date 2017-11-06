@@ -37,3 +37,56 @@
     a <bean/> element inside the <property/> or <constructor-arg/> elements is called inner bean
   
 12. Injecting Collection
+    <list> <set> <map> <props>
+  
+13. Beans Auto-Wiring
+    Modes: no, byName, byType, constructor, autodetect
+    Limitations: Overriding possibility, Primitive data types, Confusing nature
+
+14. Annotation Based Configuration(start from Spring 2.5) <context:annotation-config/> ` Important `
+    Instead of using XML to describle a bean wiring, we can move the bean configuration into the component class itself by using annotations on the relevant class, method, or field declaration.
+    Annotation injection is performed before XML injection, thus, the latter configuration will override the former for properites wired through both approaches.
+    @Required @Autowired @Qualifier JSR-250 Annotations(JSR-250 based annotations: @Resource, @PostConstruct and @PreDestroy annotations)
+    
+15. Java Based Configuration    ` Important ` 
+    Java-based configuration option enables you to write most of your Spring configuration without XML but with the help of few Java-based annotation.
+    @Configuration & @Bean Annotations
+    @Import Annotation
+    @Bean(initMethod = "init", destroyMethod = "cleanup" )
+    @Scope("prototype")
+    
+16. Event Handling in Spring (ApplicationContext)
+    Event handling in the ApplicationContext is provided through the ApplicationEvent class and ApplicationListener interface
+    ContextRefreshedEvent, ContextStartedEvent, ContextStoppedEvent, ContextClosedEvent, RequestHandledEvent
+    
+17. Custom Events in Spring
+    
+18. AOP(Aspect oriented programming) with Spring Framework    
+    
+19. Spring - JDBC Framework Overview (Perfer Hibernate)
+    JdbcTemplate class
+
+20. Spring - Transaction Management(ACID) (Also perfer Hibernate)
+
+21. Spring - MVC Framework(More details in Spring MVC part)
+    a. DispatcherServlet 
+    ![](https://www.tutorialspoint.com/spring/images/spring_dispatcherservlet.png)
+    b. Required Configuration 
+       web.xml, [servlet-name]-servlet.xml
+    c. Defining a Controller  
+       @Controller  @RequestMapping
+    d. Creating JSP Views   
+    Spring Web MVC Framework Examples：
+    (1) [Spring MVC Hello World Example](https://www.tutorialspoint.com/spring/spring_mvc_hello_world_example.htm)
+    (2) [Spring MVC Form Handling Example](https://www.tutorialspoint.com/spring/spring_mvc_form_handling_example.htm)
+    (3) [Spring Page Redirection Example](https://www.tutorialspoint.com/spring/spring_page_redirection_example.htm)
+    (4) [Spring Static Pages Example](https://www.tutorialspoint.com/spring/spring_static_pages_example.htm)
+    (5) [	Spring Exception Handling Example](https://www.tutorialspoint.com/spring/spring_exception_handling_example.htm)
+
+22. Spring - Logging with Log4J
+    log4j.properties 
+    static Logger log = Logger.getLogger(MainApp.class.getName());
+    log.info("Going to create HelloWord Obj");
+    
+23. Spring Interview Question
+    [Link](https://www.tutorialspoint.com/spring/spring_interview_questions.htm)
