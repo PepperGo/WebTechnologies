@@ -96,6 +96,7 @@
 1. MVC Framework Overview
     a. DispatcherServlet 
        ![](https://www.tutorialspoint.com/springmvc/images/spring_dispatcherservlet.png) 
+       \<br>
     b. Required Configuration 
        web.xml, [servlet-name]-servlet.xml
     c. Defining a Controller  
@@ -106,9 +107,7 @@
 <br>
 2. Spring MVC - Form Handling
 <br>
-
 [Spring MVC Form Handling Example](https://www.tutorialspoint.com/spring/spring_mvc_form_handling_example.htm)
-
 <br>
 
 [Spring Page Redirection Example](https://www.tutorialspoint.com/spring/spring_page_redirection_example.htm)
