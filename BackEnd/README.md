@@ -7,6 +7,8 @@
 
 1. Dependency Injection (DI)/Inversion of Control (IoC) and Aspect Oriented Programming (AOP)
 2. Spring Framework - Architecture(Core Container, Data Access/Integration, Web, Miscellaneous)
+![](https://www.tutorialspoint.com/spring/images/spring_architecture.png)
+
 3. ClassPathXmlApplicationContext() & getBean() (xml file  <bean> tag)
 4. IoC Containers
 
