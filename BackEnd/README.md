@@ -95,16 +95,14 @@
 ## Spring MVC Framework
 1. MVC Framework Overview
     a. DispatcherServlet 
-       ![](https://www.tutorialspoint.com/springmvc/images/spring_dispatcherservlet.png) 
-       \<br>
+       ![](https://www.tutorialspoint.com/springmvc/images/spring_dispatcherservlet.png) <br>
     b. Required Configuration 
-       web.xml, [servlet-name]-servlet.xml
-    c. Defining a Controller  
+       web.xml, [servlet-name]-servlet.xml<br>
+    c. Defining a Controller  <br>
        @Controller  @RequestMapping
-    d. Creating JSP Views   
-<br>
-[Spring MVC Hello World Example](https://www.tutorialspoint.com/springmvc/springmvc_hello_world_example.htm)
-<br>
+    d. Creating JSP Views   <br><br>
+[Spring MVC Hello World Example](https://www.tutorialspoint.com/springmvc/springmvc_hello_world_example.htm) <br>
+
 2. Spring MVC - Form Handling
 <br>
 [Spring MVC Form Handling Example](https://www.tutorialspoint.com/spring/spring_mvc_form_handling_example.htm)
