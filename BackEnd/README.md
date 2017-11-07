@@ -26,6 +26,24 @@ Architecture Diagram
    Header information, Methods to read HTTP Header  
 
 6. Servlets - Server HTTP Response  
+   Header & Description, Methods to Set HTTP Response Header  
+   
+7. Servlets - Http Status Codes
+   100	-- 505  
+   Methods to Set HTTP Status Code(setStatus, sendRedirect, sendError)
+   
+8. Servlets - Writing Filters  
+   To intercept requests from a client before they access a resource at back end.  
+   To manipulate responses from server before they are sent back to the client.  
+   Filters are deployed in the deployment descriptor file web.xml and then map to either servlet names or URL patterns in your application's deployment descriptor.  
+   Methods(doFilter, init,  destroy)  
+   
+9. Servlets - Exception Handling   
+   Use the error-page element in web.xml to specify the invocation of servlets in response to certain exceptions or HTTP status codes.  
+   Request Attributes − Errors/Exceptions  
+   
+10. Servlets - Cookies Handling  
+
 
 
 
