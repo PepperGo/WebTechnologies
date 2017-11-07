@@ -18,6 +18,16 @@ Architecture Diagram
 
 3. [Servlets - Examples](https://www.tutorialspoint.com/servlets/servlets-first-example.htm)  
 
+4. Servlets - Form Data  
+   doGet(), doPost(), Reading Form Data using Servlet(getParameter(), getParameterValues(), getParameterNames())  
+   [Example](https://www.tutorialspoint.com/servlets/servlets-form-data.htm)  
+   
+5. Servlets - Client HTTP Request  
+   Header information, Methods to read HTTP Header  
+
+6. Servlets - Server HTTP Response  
+
+
 
 ## JSP
 
