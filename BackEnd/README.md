@@ -43,7 +43,34 @@ Architecture Diagram
    Request Attributes − Errors/Exceptions  
    
 10. Servlets - Cookies Handling  
+    Servlet Cookies Methods  
+    Setting Cookies, Reading Cookies, Delete Cookies  
+    
+11. Servlets - Session Tracking  
+    HTTP is a "stateless" protocol which means each time a client retrieves a Web page, the client opens a separate connection to the Web server and the server automatically does not keep any record of previous client request.   
+    Still there are following three ways to maintain session between web client and web server:  
+    1. Cookies  
+    2. Hidden Form Fields  
+    3. URL Rewriting  
+    Apart from the above three ways,   
+    4. The HttpSession Object(servlet provides HttpSession Interface which provides a way to identify a user across more than one page request or visit to a Web site and to store information about that user)  
+    `HttpSession session = request.getSession();`
+      
+12. Servlets - Database Access  
+    JDBC  
 
+13. Servlets - File Uploading  
+
+14. Servlets - Handling Date  
+
+15. Servlets - Page Redirection  
+    Redirecting a request to another page is using method sendRedirect() of response object  
+    
+16. Servlets - Hits Counter  
+
+
+    
+    
 
 
 
