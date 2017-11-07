@@ -68,9 +68,24 @@ Architecture Diagram
     
 16. Servlets - Hits Counter  
 
+17. Servlets - Auto Page Refresh  
 
-    
-    
+18. Servlets - Sending Email  
+
+19. Servlets - Packaging  
+
+20. Servlets - Debugging  
+
+21. Servlets - Internationalization  
+
+22. Servlets - Annotations `important`
+    Servlet API 3.0 has introduced a new package called javax.servlet.annotation. 
+    It provides annotation types which can be used for annotating a servlet class.
+    If you use annotation, then the deployment descriptor (web.xml) is not required. 
+    But you should use tomcat7 or any later version of tomcat.
+
+23. [Question & Interview](https://www.tutorialspoint.com/servlets/servlets-questions-answers.htm)  
+
 
 
 
