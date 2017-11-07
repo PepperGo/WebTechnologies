@@ -6,7 +6,7 @@
 - [Framework](#Framework)
   - [Spring Framework](#Spring-Framework)
   - [Spring MVC Framework](#Spring-MVC-Framework)
-  - [Hibernate Framework(#Hibernate-Framework)
+  - [Hibernate Framework](#Hibernate-Framework)
 
 
 # Java Servlets/JSP
