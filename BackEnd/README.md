@@ -179,7 +179,7 @@ Architecture Diagram
 
 29. JSP - Internationalization  
 
-30 [JSP Questions and Answers](https://www.tutorialspoint.com/jsp/jsp_questions_answers.htm)  
+30. [JSP Questions and Answers](https://www.tutorialspoint.com/jsp/jsp_questions_answers.htm)  
 
 
 
@@ -268,10 +268,10 @@ Architecture Diagram
 
 22. Spring - Logging with Log4J
     log4j.properties 
-    static Logger log = Logger.getLogger(MainApp.class.getName());
-    log.info("Going to create HelloWord Obj");
+    static Logger log = Logger.getLogger(MainApp.class.getName());  
+    log.info("Going to create HelloWord Obj");  
     
-23. Spring Interview Question
+23. Spring Interview Question  
     [Link](https://www.tutorialspoint.com/spring/spring_interview_questions.htm)
 
 
