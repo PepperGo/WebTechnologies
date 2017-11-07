@@ -364,8 +364,12 @@ Hibernate not only takes care of the mapping from Java classes to database table
    Class objects involved in Hibernate Application Architecture:  
    Configuration Object, SessionFactory Object, Session Object, Transaction Object, Query Object, Criteria Object  
    
+4. Hibernate - Configuration   
+   Hibernate also requires a set of configuration settings related to database and other related parameters.(a standard Java properties file called hibernate.properties, or as an XML file named hibernate.cfg.xml)   
+   Hibernate Properties:   
+   hibernate.dialect, hibernate.connection.driver_class, hibernate.connection.url, hibernate.connection.username, hibernate.connection.password, hibernate.connection.pool_size, hibernate.connection.autocommit  
    
-   
+5. Hibernate - Sessions  
    
    
    
