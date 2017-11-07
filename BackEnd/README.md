@@ -1,5 +1,14 @@
 # Java Servlets/ JSP
 ## Java Serlvets
+1. Servlets - Overview
+Java Servlets are programs that run on a Web or Application server and act as a middle layer between a requests coming from a Web browser or other HTTP client and databases or applications on the HTTP server.
+Servlets Architecture<br>
+![](https://www.tutorialspoint.com/servlets/images/servlet-arch.jpg)<br>
+Servlets Tasks
+Servlets Packages(javax.servlet, javax.servlet.http)
+
+2. Servlets - Life Cycle
+
 
 
 ## JSP
