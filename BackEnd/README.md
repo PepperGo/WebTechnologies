@@ -91,6 +91,7 @@ Architecture Diagram
 
 ## JSP   
    Using JSP, you can collect input from users through Webpage forms, present records from a database or another source, and create Webpages dynamically.   
+#### Basic   
 1. JSP-Architecture   
    ![](https://www.tutorialspoint.com/jsp/images/jsp-arch.jpg)  
    JSP Processing(The following steps explain how the web server creates the Webpage using JSP) `important`    
@@ -117,12 +118,70 @@ Architecture Diagram
    (6) JSP Actions `<jsp:action_name attribute="value" />`  
    (7) JSP Implicit Objects `request, response, out, session, page ...`
    (8) JSP Literals(Boolean, Integer, Floating point, String, Null)  
+   
+4. JSP - Directives(`<%@ directive attribute = "value" %>`)  
+   `<%@ page ... %>`  `<%@ include ... %>`  `<%@ taglib ... %>`  
    
+5. JSP - Actions(`<jsp:action_name attribute = "value" />`)    
    
+6. JSP - Implicit Objects  
 
-   
+7. JSP - Client Request  
+   The HttpServletRequest Object  
 
-   
+8. JSP - Server Response  
+   The HttpServletResponse Object  
+
+9. JSP - Http Status Codes  
+   100 -- 505
+
+10. JSP - Form Processing  
+
+11. JSP - Filters  
+
+12. JSP - Cookies Handling   
+
+13. JSP - Session Tracking  
+
+14. JSP - File Uploading  
+
+15. JSP - Handling Date  
+
+16. JSP - Page Redirecting  
+    `public void response.sendRedirect(String location) throws IOException `   
+    
+17. JSP - Hits Counter  
+
+18. JSP - Auto Refresh  
+
+19. JSP - Sending Email  
+
+#### Advanced
+20. JSP - Standard Tag Library (JSTL)  
+    A collection of useful JSP tags which encapsulates the core functionality common to many JSP applications.  
+    To use any of the libraries, must include a <taglib> directive at the top of each JSP that uses the library.  
+ 
+21. JSP - Database Access  
+
+22. JSP - XML Data  
+
+23. JSP - JavaBeans  
+
+24. JSP - Custom Tags  
+
+25. JSP - Expression Language (EL)  
+
+26. JSP - Exception Handling  
+
+27. JSP - Debugging  
+
+28. JSP - Security  
+
+29. JSP - Internationalization  
+
+30 [JSP Questions and Answers](https://www.tutorialspoint.com/jsp/jsp_questions_answers.htm)  
+
+
 
 
 # Framework
