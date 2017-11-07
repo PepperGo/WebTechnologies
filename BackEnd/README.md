@@ -330,4 +330,32 @@ Architecture Diagram
 
 
 ## Hibernate Framework
+Hibernate not only takes care of the mapping from Java classes to database tables (and from Java data types to SQL data types), but also provides data query and retrieval facilities.  
+1. Hibernate - ORM Overview  
+   JDBC: Java Database Connectivity, it provides a set of Java API for accessing the relational databases from Java program.(Pros/Cons) 
+   Why Object Relational Mapping (ORM)?  
+   (1). Modify the design of database  
+   (2). Loading and storing objects in a relational database exposes us to the following five mismatch problems(Granularity, Inheritance, Identity, Associations, Navigation) The Object-Relational Mapping (ORM) is the solution to handle all the above impedance mismatches.   
+   What is ORM?   
+   ORM stands for Object-Relational Mapping (ORM) is a programming technique for converting data between relational databases and object oriented programming languages such as Java, C#, etc.  
+   
 
+2. Hibernate - Overview  
+   Hibernate is an Object-Relational Mapping (ORM) solution for JAVA.   
+   ![](https://www.tutorialspoint.com/hibernate/images/hibernate_position.jpg)    
+   Advantages  
+   
+3. Hibernate - Architecture  
+   high level view of the Hibernate Application Architecture  
+   ![](https://www.tutorialspoint.com/hibernate/images/hibernate_high_level.jpg)  
+   detailed view of the Hibernate Application Architecture with its important core classes  
+   ![](https://www.tutorialspoint.com/hibernate/images/hibernate_architecture.jpg)  
+   Class objects involved in Hibernate Application Architecture:  
+   Configuration Object, SessionFactory Object, Session Object, Transaction Object, Query Object, Criteria Object  
+   
+   
+   
+   
+   
+   
+   
