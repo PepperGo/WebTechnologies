@@ -89,7 +89,40 @@ Architecture Diagram
 
 
 
-## JSP
+## JSP   
+   Using JSP, you can collect input from users through Webpage forms, present records from a database or another source, and create Webpages dynamically.   
+1. JSP-Architecture   
+   ![](https://www.tutorialspoint.com/jsp/images/jsp-arch.jpg)  
+   JSP Processing(The following steps explain how the web server creates the Webpage using JSP) `important`    
+   (1) As with a normal page, your browser sends an HTTP request to the web server.  
+   (2) The web server recognizes that the HTTP request is for a JSP page and forwards it to a JSP engine. This is done by using the URL or JSP page which ends with .jsp instead of .html.   
+   (3) The JSP engine loads the JSP page from disk and converts it into a servlet content. This conversion is very simple in which all template text is converted to println( ) statements and all JSP elements are converted to Java code. This code implements the corresponding dynamic behavior of the page.  
+   (4) The JSP engine compiles the servlet into an executable class and forwards the original request to a servlet engine.  
+   (5) A part of the web server called the servlet engine loads the Servlet class and executes it. During execution, the servlet produces an output in HTML format. The output is furthur passed on to the web server by the servlet engine inside an HTTP response.  
+   (6) The web server forwards the HTTP response to your browser in terms of static HTML content.  
+   (7) Finally, the web browser handles the dynamically-generated HTML page inside the HTTP response exactly as if it were a static page.
+   ![](https://www.tutorialspoint.com/jsp/images/jsp-processing.jpg)  
+   
+2. JSP - Lifecycle    
+   Compilation, Initialization, Execution, Cleanup  
+   ![](https://www.tutorialspoint.com/jsp/images/jsp_life_cycle.jpg)  
+  
+3. JSP - Syntax  
+   Elements of JSP: 
+   (1) The Scriptlet`<% code fragment %>`  
+   (2) JSP Declarations `<%! declaration; [ declaration; ]+ ... %>`  
+   (3) JSP Expression `<%= expression %>`  
+   (4) JSP Comments `<%-- This is JSP comment --%>`  
+   (5) JSP Directives `<%@ directive attribute="value" %>`   
+   (6) JSP Actions `<jsp:action_name attribute="value" />`  
+   (7) JSP Implicit Objects `request, response, out, session, page ...`
+   (8) JSP Literals(Boolean, Integer, Floating point, String, Null)  
+   
+   
+
+   
+
+   
 
 
 # Framework
