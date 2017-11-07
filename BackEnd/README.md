@@ -1,5 +1,5 @@
 # Table of Contents
--[Java Servlets/JSP](Java-Servlets--JSP)
+- [Java Servlets/JSP](Java-Servlets--JSP)
 
 # Java Servlets/JSP
 ## Java Serlvets
