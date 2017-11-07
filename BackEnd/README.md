@@ -1,7 +1,7 @@
 # Table of Contents
--[Java Servlets/ JSP](#Java Servlets/ JSP)
+-[Java Servlets/JSP](Java Servlets/JSP)
 
-# Java Servlets/ JSP
+# Java Servlets/JSP
 ## Java Serlvets
 1. Servlets - Overview<br>
 Java Servlets are programs that run on a Web or Application server and act as a middle layer between a requests coming from a Web browser or other HTTP client and databases or applications on the HTTP server.<br>
