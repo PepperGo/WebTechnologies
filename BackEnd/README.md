@@ -7,8 +7,16 @@ Servlets Architecture<br>
 Servlets Tasks
 Servlets Packages(javax.servlet, javax.servlet.http)
 
-2. Servlets - Life Cycle
+2. Servlets - Life Cycle<br>
+init()<br>
+service() (The service() method checks the HTTP request type (GET, POST, PUT, DELETE, etc.) and calls doGet, doPost, doPut, doDelete, etc. methods as appropriate)<br>
+destroy()<br>
+garbage collected by the garbage collector of the JVM<br>
+Architecture Diagram  
+![](https://www.tutorialspoint.com/servlets/images/servlet-lifecycle.jpg)  
 
+
+3. [Servlets - Examples](https://www.tutorialspoint.com/servlets/servlets-first-example.htm)  
 
 
 ## JSP
