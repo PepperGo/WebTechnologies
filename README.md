@@ -83,8 +83,17 @@ Thanks to
 
 ##### Good Material
 
-## Web Services
-### RESTful API
+## SOA & Web Services   [`More Details`](https://github.com/PepperGo/WebTechnologies/tree/master/SOA-WebServices)
+### SOA
+
+
+### Web Services
+#### XML-Based 
+
+
+#### REST-based
+#### RESTful API
+[RESTful Web Services Tutorial](https://www.tutorialspoint.com/restful/index.htm)  
 [REST Web Services](https://www.youtube.com/watch?v=xkKcdK1u95s&index=1&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn)
 
 ##### Good Material
