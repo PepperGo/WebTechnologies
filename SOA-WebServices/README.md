@@ -5,7 +5,7 @@
   - [XML-based](#XML-based)
     - [SOAP](##SOAP)
   - [REST-based](#REST-based)
-    -[RESTful](##RESTful)
+    - [RESTful](##RESTful)
 
 # SOA
 
