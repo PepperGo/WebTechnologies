@@ -2,16 +2,20 @@
 - [SOA](SOA)
 
 - [Web Services](Web-Services)
-  - [SOAP](#SOAP)
-  - [RESTFUL](#RESTFUL)
+  - [XML-based](#XML-based)
+    - [SOAP](##SOAP)
+  - [REST-based](#REST-based)
+    -[RESTful](##RESTful)
 
 # SOA
 
 
 # Web Services
 
-## SOAP
+## XML-based
 
+### SOAP
 
+## REST-based
 
-## RESTFUL
+### RESTful
