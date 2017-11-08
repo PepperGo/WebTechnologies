@@ -1,7 +1,7 @@
 # Table of Contents
 - [SOA](SOA)
 
-- [Web Services](Web Services)
+- [Web Services](Web-Services)
   - [SOAP](#SOAP)
   - [RESTFUL](#RESTFUL)
 
