@@ -24,7 +24,9 @@
 
 ### XML
 
-## Back-End [`Details`](https://github.com/PepperGo/WebTechnologies/tree/master/BackEnd)
+## Back-End   
+[More Details](https://github.com/PepperGo/WebTechnologies/tree/master/BackEnd)
+
 ### JSP && Servlets
 [Creating and Configuring Servlets](https://docs.oracle.com/cd/E13222_01/wls/docs92/webapp/configureservlet.html)
 
@@ -33,10 +35,10 @@
 [JSP Tutorial - Java Server Pages Tutorial(video)](https://www.youtube.com/playlist?list=PLEAQNNR8IlB588DQvb2wbKFQh2DviPApl)  
 [JSP Tutorial - TutorialsPoint](https://www.google.com/search?q=jsp+tutorial&rlz=1C1CHBD_enUS718US718&oq=jsp+tut&aqs=chrome.0.69i59j69i60l3j69i57j0.3684j0j7&sourceid=chrome&ie=UTF-8) 
 
-## Framework
-[7 Best Java Frameworks for 2016](https://www.romexsoft.com/blog/7-best-java-frameworks-for-2016/)
-### 1. Spring MVC
-Before study spring mvc, it's helpful to learn [Spring Framework](https://www.tutorialspoint.com/spring/index.htm) first. 
+### Framework
+[7 Best Java Frameworks for 2016](https://www.romexsoft.com/blog/7-best-java-frameworks-for-2016/)  
+#### 1. Spring MVC
+Before study spring mvc, it's helpful to learn [Spring Framework](https://www.tutorialspoint.com/spring/index.htm) first.   
 
 
 Recommend:<br>
@@ -53,13 +55,13 @@ If you want to build a spring framework MVC application: [Developing a Spring Fr
 [Spring Tutorial(javatpoint)](https://www.javatpoint.com/spring-3-mvc-tutorial)<br>
 [Spring MVC Tutorials(video)](https://www.youtube.com/watch?v=iCQspqBpOB0&list=PLBgMUB7xGcO31B2gBmy1igpZn6LK78-CJ)<br>
 
-### 2. Struts 2
+#### 2. Struts 2
 
-### 3. Hibernate
+#### 3. Hibernate
 [Hibernate Tutorial(video)](https://www.youtube.com/playlist?list=PLEAQNNR8IlB7fNkRsUgzrR346i-UqE5CG)
 [Hibernate](https://www.youtube.com/playlist?list=PL4AFF701184976B25)
 
-### 4. Jsf
+#### 4. Jsf
 
 
 
