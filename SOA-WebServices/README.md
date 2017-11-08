@@ -29,7 +29,10 @@ RESTful Web Services are basically REST Architecture based Web Services. ESTful 
    Software applications written in various programming languages and running on various platforms can use web services to exchange data over computer networks like the Internet in a manner similar to inter-process communication on a single computer.   
    Web services based on REST Architecture are known as RESTful Web Services. These web services use HTTP methods to implement the concept of REST architecture. A RESTful web service usually defines a URI (Uniform Resource Identifier), which is a service that provides resource representation such as JSON and a set of HTTP Methods.  
    
+2. Environment  
+   Jersey Framework(implements JAX-RS API, which is a standard specification to create RESTful Web Services)
 
-
+3. [RESTful Web Services - First Application](https://www.tutorialspoint.com/restful/restful_first_application.htm)   
+   Like Spring MVC. 
    
-   
+4. RESTful Web Services - Resources    
