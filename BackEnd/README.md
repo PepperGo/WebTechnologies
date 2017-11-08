@@ -436,6 +436,49 @@ Hibernate not only takes care of the mapping from Java classes to database table
     List results = query.list();
 `  
 
-13. Hibernate - Criteria Queries
-      
+13. Hibernate - Criteria Queries  
+    Hibernate provides alternate ways of manipulating objects and in turn data available in RDBMS tables. One of the methods is Criteria API, which allows you to build up a criteria query object programmatically where you can apply filtration rules and logical conditions.  
+    The Hibernate Session interface provides createCriteria() method, which can be used to create a Criteria object that returns instances of the persistence object's class when your application executes a criteria query.
+    `Criteria cr = session.createCriteria(Employee.class);
+     List results = cr.list();
+`  
+    Restrictions with Criteria: add() method available for Criteria object to add restriction for a criteria query  
+    Pagination Using Criteria: public Criteria setFirstResult(int firstResult), public Criteria setMaxResults(int maxResults)  
+    `Criteria cr = session.createCriteria(Employee.class);
+     cr.setFirstResult(1);
+     cr.setMaxResults(10);
+     List results = cr.list();
+    `  
+    Sorting the Results  
+    Projections & Aggregations  
+    [Criteria Queries Example](https://www.tutorialspoint.com/hibernate/hibernate_criteria_queries.htm)    
+    
+14. Hibernate - Native SQL  
+    Your application will create a native SQL query from the session with the createSQLQuery() method on the Session interface:
+    `public SQLQuery createSQLQuery(String sqlString) throws HibernateException `
+    Scalar Queries, Entity Queries, Named SQL Queries
+    [Native SQL Example](https://www.tutorialspoint.com/hibernate/hibernate_native_sql.htm)  
+    
+15. Hibernate - Caching  
+    Caching is a mechanism to enhance the performance of a system. It is a buffer memorythat lies between the application and the database. Cache memory stores recently used data items in order to reduce the number of database hits as much as possible.  
+    ![](https://www.tutorialspoint.com/hibernate/images/hibernate_cache.jpg)  
+    First-level Cache, Second-level Cache, Query-level Cache  
+    [Example](https://www.tutorialspoint.com/hibernate/hibernate_caching.htm)    
+
+16. Hibernate - Batch Processing  
+    By default, Hibernate will cache all the persisted objects in the session-level cache and ultimately your application would fall over with an OutOfMemoryException somewhere around the 50,000th row.  
+     You can resolve this problem, if you are using batch processing with Hibernate.  
+     [Example](https://www.tutorialspoint.com/hibernate/hibernate_batch_processing.htm)  
+     
+17. Hibernate - Interceptors  
+    An object passes through different stages in its life cycle and Interceptor Interface provides methods, which can be called at different stages to perform some required tasks. 
+    To build an interceptor, you can either implement Interceptor class directly or extend EmptyInterceptor class.   
+    [Example](https://www.tutorialspoint.com/hibernate/hibernate_interceptors.htm)  
+    
+18. [Hibernate Questions and Answers](https://www.tutorialspoint.com/hibernate/hibernate_questions_answers.htm)   
+     
+
+    
+     
+    
    
