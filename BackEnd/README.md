@@ -370,7 +370,72 @@ Hibernate not only takes care of the mapping from Java classes to database table
    hibernate.dialect, hibernate.connection.driver_class, hibernate.connection.url, hibernate.connection.username, hibernate.connection.password, hibernate.connection.pool_size, hibernate.connection.autocommit  
    
 5. Hibernate - Sessions  
+   A Session is used to get a physical connection with a database.   
+   Persistent objects are saved and retrieved through a Session object.  
+   Instances three states: transient, persistent, detached  
+   Session Interface Methods  
    
+6. Hibernate - Persistent Class  
+   The entire concept of Hibernate is to take the values from Java class attributes and persist them to a database table.  
+   Java classes whose objects or instances will be stored in database tables are called persistent classes in Hibernate.   
+   Plain Old Java Object (POJO) programming model  
    
+7. Hibernate - Mapping Files  
+   An Object/relational mappings are usually defined in an XML document. This mapping file instructs Hibernate — how to map the defined class or classes to the database tables?  
+   `XML
+   <?xml version = "1.0" encoding = "utf-8"?>
+   <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+   <hibernate-mapping>
+      <class name = "Employee" table = "EMPLOYEE">
+      
+         <meta attribute = "class-description">
+             This class contains the employee detail. 
+          </meta>
+      
+          <id name = "id" type = "int" column = "id">
+              <generator class="native"/>
+          </id>
+      
+          <property name = "firstName" column = "first_name" type = "string"/>
+          <property name = "lastName" column = "last_name" type = "string"/>
+          <property name = "salary" column = "salary" type = "int"/>
+      
+      </class>
+   </hibernate-mapping>
+   `
+   You should save the mapping document in a file with the format <classname>.hbm.xml.  
+   <hibernate-mapping>,  <class>, <meta>, <id>, <generator>, <property>    
+     
+8. Hibernate - Mapping Types  
+   Primitive Types, Date and Time Types, Binary and Large Object Types, JDK-related Types    
    
+9. [Hibernate - Examples](https://www.tutorialspoint.com/hibernate/hibernate_examples.htm)  
+
+10. Hibernate - O/R Mappings  
+    We have seen very basic O/R mapping using hibernate, but there are three most important mapping topics:  
+    1. Mapping of collections(java.util.Map, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.List, array) 
+    2. Mapping of associations between entity classes(Many-to-One, One-to-One, One-to-Many, Many-to-Many)   
+    3. Component Mappings(in a similar way just as the mapping of regular Collections with minor configuration differences)  
+    
+11. Hibernate - Annotations `important`
+    Hibernate annotations are the newest way to define mappings without the use of XML file. You can use annotations in addition to or as a replacement of XML mapping metadata.  
+    (hibernate-annotations.jar, lib/hibernate-comons-annotations.jar and lib/ejb3-persistence.jar)  
+    [Example](https://www.tutorialspoint.com/hibernate/hibernate_annotations.htm)  
+    @Entity, @Table, @Id and @GeneratedValue(strategy and generator) Annotations, @Column(name, length, nullable, unique)  
+    
+12. Hibernate - Query Language  
+    Hibernate Query Language (HQL) is an object-oriented query language, similar to SQL, but instead of operating on tables and columns, HQL works with persistent objects and their properties. HQL queries are translated by Hibernate into conventional SQL queries, which in turns perform action on database.  
+    FROM Clause, AS Clause, SELECT Clause, WHERE Clause, ORDER BY Clause, GROUP BY Clause, Using Named Parameters, UPDATE Clause, DELETE Clause, INSERT Clause,  Aggregate Methods(avg, count, max, min, sum |  distinct),   
+    Pagination using Query, here are two methods of the Query interface for pagination: Query setFirstResult(int startPosition), Query setMaxResults(int maxResult).
+   `String hql = "FROM Employee";
+    Query query = session.createQuery(hql);
+    query.setFirstResult(1);
+    query.setMaxResults(10);
+    List results = query.list();
+`  
+
+13. Hibernate - Criteria Queries
+      
    
