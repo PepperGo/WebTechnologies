@@ -11,7 +11,11 @@
     * Framework
 
 * Database
-
+    * JDBC
+    * MySQL
+    * MongoDB
+    * Redis
+    
 * [SOA & Web Services](https://github.com/PepperGo/WebTechnologies/tree/master/SOA-WebServices)
 
 ## Front-End
