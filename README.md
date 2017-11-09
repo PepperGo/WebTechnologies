@@ -1,29 +1,37 @@
 # WebTechnologies
     I originally created this as a to-do list of study topics for becoming a full-stack developer. 
-    After going through this study plan, I got hired by XXX (I will fill this after getting hired).
     You can go into each directory for more details.
 
 
-#### [Full-Stack Open Source Web Application Development with Java](http://code.scottshipp.com/learn/tutorial-full-stack-open-source-web-application-development-with-java/)
+## Table of Contents
 
-## SOA
-##### Good Material
+
+
 
 ## Front-End
 ### HTML/CSS
 
-##### Good Material
-### JavaScript
 
-##### Good Material
+  
+  
+### JavaScript  
+
+  
+    
+    
+
 ### jQuery
-##### Good Material
 
+  
+  
 ### Single page applications
 
-
+  
+  
 ### XML
-
+  
+  
+  
 ## Back-End   [`More Details`](https://github.com/PepperGo/WebTechnologies/tree/master/BackEnd)
 
 ### JSP && Servlets
@@ -85,7 +93,7 @@ Thanks to
 
 ## SOA & Web Services   [`More Details`](https://github.com/PepperGo/WebTechnologies/tree/master/SOA-WebServices)
 ### SOA
-
+[Full-Stack Open Source Web Application Development with Java](http://code.scottshipp.com/learn/tutorial-full-stack-open-source-web-application-development-with-java/)  
 
 ### Web Services
 #### XML-Based 
