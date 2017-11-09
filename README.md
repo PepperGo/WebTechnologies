@@ -54,7 +54,7 @@
 
 ### 2. Framework
 [7 Best Java Frameworks for 2016](https://www.romexsoft.com/blog/7-best-java-frameworks-for-2016/)  
-#### (1). Spring MVC
+#### (1) Spring MVC
 Before study spring mvc, it's helpful to learn [Spring Framework](https://www.tutorialspoint.com/spring/index.htm) first.   
 
 
@@ -72,13 +72,13 @@ If you want to build a spring framework MVC application: [Developing a Spring Fr
 [Spring Tutorial(javatpoint)](https://www.javatpoint.com/spring-3-mvc-tutorial)<br>
 [Spring MVC Tutorials(video)](https://www.youtube.com/watch?v=iCQspqBpOB0&list=PLBgMUB7xGcO31B2gBmy1igpZn6LK78-CJ)<br>
 
-#### (2). Struts 2
+#### (2) Struts 2
 
-#### (3). Hibernate
+#### (3) Hibernate
 [Hibernate Tutorial(video)](https://www.youtube.com/playlist?list=PLEAQNNR8IlB7fNkRsUgzrR346i-UqE5CG)
 [Hibernate](https://www.youtube.com/playlist?list=PL4AFF701184976B25)
 
-#### (4). Jsf
+#### (4) Jsf
 
 
 
