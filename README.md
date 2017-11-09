@@ -9,12 +9,12 @@
 
 
 ## Front-End
-### HTML/CSS
+### * HTML/CSS
 
 
   
   
-### JavaScript  
+### * JavaScript  
 
   
     
