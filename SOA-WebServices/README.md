@@ -36,3 +36,65 @@ RESTful Web Services are basically REST Architecture based Web Services. ESTful 
    Like Spring MVC. 
    
 4. RESTful Web Services - Resources    
+   REST architecture treats every content as a resource. These resources can be Text Files, Html Pages, Images, Videos or Dynamic Business Data.   
+   Each resource is identified by URIs/ Global IDs. REST uses various representations to represent a resource where Text, JSON, XML. The most popular representations of resources are XML and JSON.    
+   
+5. RESTful Web Services - Messages  
+   A client sends a message in form of a HTTP Request and the server responds in the form of an HTTP Response.   
+   HTTP Request:   
+   ![](https://www.tutorialspoint.com/restful/images/http_request.jpg)    
+   HTTP Response:  
+   ![](https://www.tutorialspoint.com/restful/images/http_response.jpg)  
+   
+   
+6. RESTful Web Services - Addressing  
+   Each resource in REST architecture is identified by its URI (Uniform Resource Identifier). A URI is of the following format:  
+   `<protocol>://<service-name>/<ResourceType>/<ResourceID>`  
+   Constructing a Standard URI:  
+   a. Use Plural Noun  
+   b. Avoid using spaces  
+   c. Use lowercase letters  
+   d. Maintain Backward Compatibility   
+   e. se HTTP Verb   
+   
+7. RESTful Web Services - Methods     
+   [Example](https://www.tutorialspoint.com/restful/restful_methods.htm)  `important`  
+   
+8. RESTful Web Services - Statelessness  
+   Advantages of Statelessness:   
+   a. Web services can treat each method request independently.  
+   b. Web services need not maintain the client's previous interactions. It simplifies the application design.  
+   c. As HTTP is itself a statelessness protocol, RESTful Web Services work seamlessly with the HTTP protocols.  
+   Disadvantages of Statelessness:   
+   Web services need to get extra information in each request and then interpret to get the client's state in case the client interactions are to be taken care of.  
+   
+9. RESTful Web Services - Caching  
+   Caching refers to storing the server response in the client itself, so that a client need not make a server request for the same resource again and again.   
+   Best Practices:  
+   a. Always keep static contents like images, CSS, JavaScript cacheable, with expiration date of 2 to 3 days.  
+   b. Never keep expiry date too high.  
+   c. Dynamic content should be cached for a few hours only.  
+
+10. RESTful Web Services - Security  
+    Best practices:  
+    Validation, Session Based Authentication, No Sensitive Data in the URL, Restriction on Method Execution, Validate Malformed XML/JSON, Throw generic Error Messages  
+    
+11. RESTful Web Services - Java (JAX-RS)  
+    JAX-RS stands for JAVA API for RESTful Web Services.  
+    @Path, @GET, @Produces, @Consumes, @PathParam...  
+    [Annotation & Description](https://www.tutorialspoint.com/restful/restful_jax_rs.htm)  
+    
+    
+12. [RESTful Questions and Answers](https://www.tutorialspoint.com/restful/restful_questions_answers.htm)    
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
