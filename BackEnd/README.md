@@ -270,12 +270,12 @@ Architecture Diagram
     c. Defining a Controller  
        @Controller  @RequestMapping
     d. Creating JSP Views   
-    Spring Web MVC Framework Examples：
-    (1) [Spring MVC Hello World Example](https://www.tutorialspoint.com/spring/spring_mvc_hello_world_example.htm)
-    (2) [Spring MVC Form Handling Example](https://www.tutorialspoint.com/spring/spring_mvc_form_handling_example.htm)
-    (3) [Spring Page Redirection Example](https://www.tutorialspoint.com/spring/spring_page_redirection_example.htm)
-    (4) [Spring Static Pages Example](https://www.tutorialspoint.com/spring/spring_static_pages_example.htm)
-    (5) [Spring Exception Handling Example](https://www.tutorialspoint.com/spring/spring_exception_handling_example.htm)
+    Spring Web MVC Framework Examples：  
+    (1) [Spring MVC Hello World Example](https://www.tutorialspoint.com/spring/spring_mvc_hello_world_example.htm)<br>
+    (2) [Spring MVC Form Handling Example](https://www.tutorialspoint.com/spring/spring_mvc_form_handling_example.htm)<br>
+    (3) [Spring Page Redirection Example](https://www.tutorialspoint.com/spring/spring_page_redirection_example.htm)<br>
+    (4) [Spring Static Pages Example](https://www.tutorialspoint.com/spring/spring_static_pages_example.htm)<br>
+    (5) [Spring Exception Handling Example](https://www.tutorialspoint.com/spring/spring_exception_handling_example.htm)<br>
 
 22. Spring - Logging with Log4J
     log4j.properties 
