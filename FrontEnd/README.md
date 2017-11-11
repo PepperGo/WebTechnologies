@@ -15,7 +15,20 @@ AngularJS extends HTML attributes with Directives, and binds data to HTML with E
 It is a library written in JavaScript.  
 `<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>`  
 AngularJS extends HTML with ng-directives.(**ng-app**, **ng-model**, **ng-bind**, **ng-init**)  
-AngularJS expressions are written inside double braces: **{{ expression }} **
+AngularJS expressions are written inside double braces: **{{expression}}**  
+    
+AngularJS Applications: 
+AngularJS modules define AngularJS applications.  
+AngularJS controllers control AngularJS applications.  
+The ng-app directive defines the application, the ng-controller directive defines the controller.  
+
+
+2. AngularJS Expressions  
+   (1) `{{ expression }}`
+   (2) `ng-bind="expression"`
+   (ng-app directive needed, If you remove the ng-app directive, HTML will display the expression as it is, without solving it)  
+   
+   
 
   
 
