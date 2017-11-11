@@ -16,7 +16,7 @@ AngularJS extends HTML with new attributes. AngularJS is perfect for Single Page
   `<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>`    
   
   AngularJS extends HTML with ng-directives:  
-  **ng-app**: defines an AngularJS application (tells AngularJS that the <div> element is the "owner" of an AngularJS application)   
+  **ng-app**: defines an AngularJS application (tells AngularJS that the /<div/> element is the "owner" of an AngularJS application)   
   **ng-model**: binds the value of HTML controls (input, select, textarea) to application data(binds the value of the input field to the application variable name)  
   **ng-bind**: binds application data to the HTML view(binds the innerHTML of the <p> element to the application variable name)      
   **ng-init**: initializes AngularJS application variables  
