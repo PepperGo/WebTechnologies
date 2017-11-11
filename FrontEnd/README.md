@@ -25,7 +25,6 @@ The ng-app directive defines the application, the ng-controller directive define
 
 2. AngularJS Expressions  
    (1) `{{ expression }}`   
-   
    (2) `ng-bind="expression"`
    (ng-app directive needed, If you remove the ng-app directive, HTML will display the expression as it is, without solving it)  
    
