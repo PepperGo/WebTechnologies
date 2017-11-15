@@ -2,6 +2,7 @@
     I originally created this as a to-do list of study topics for becoming a full-stack developer. 
     You can go into each directory for more details.
     Coding is always mandatory.
+    I'll keep updating.
 
 
 ## Table of Contents
