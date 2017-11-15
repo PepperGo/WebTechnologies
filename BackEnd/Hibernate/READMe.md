@@ -10,6 +10,8 @@ We can map the inheritance hierarchy classes with the table of the database. The
 3. Table Per Subclass  
 
 ##### (1) Hibernate Table Per Hierarchy using Annotation  
+In table per hierarchy mapping, single table is required to map the whole hierarchy, an extra column (known as discriminator column) is added to identify the class. But nullable values are stored in the table .  
+
 You need to use @Inheritance(strategy=InheritanceType.SINGLE_TABLE), @DiscriminatorColumn and @DiscriminatorValue annotations for mapping table per hierarchy strategy.  
 
 Example:  
@@ -144,6 +146,118 @@ public static void main(String[] args) {
 
 ```
 
+##### (2) Table Per Concrete class using Annotation    
+In case of table per concrete class, tables are created as per class. But duplicate column is added in subclass tables.    
+
+Here, we need to use @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS) annotation in the parent class and @AttributeOverrides annotation in the subclasses.  
+
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS) specifies that we are using table per concrete class strategy. It should be specified in the parent class only.   
+
+@AttributeOverrides defines that parent class attributes will be overriden in this class. In table structure, parent class table columns will be added in the subclass table.  
+Example:  
+![](https://www.javatpoint.com/images/hibernate/inheritance1.jpg)  
+
+Table structure for Employee class  
+![](https://www.javatpoint.com/images/hibernate/concretetable1.jpg)  
+
+Table structure for Regular_Employee class  
+![](https://www.javatpoint.com/images/hibernate/concretetable2.jpg)  
+
+Table structure for Contract_Employee class  
+![](https://www.javatpoint.com/images/hibernate/concretetable3.jpg)  
+
+1. Create the Persistent classes  
+File: Employee.java  
+```Java
+@Entity  
+@Table(name = "employee102")  
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)  
+  
+public class Employee {  
+@Id  
+@GeneratedValue(strategy=GenerationType.AUTO)  
+      
+@Column(name = "id")  
+private int id;  
+  
+@Column(name = "name")  
+private String name;  
+  
+//setters and getters  
+}  
+```
+File: Regular_Employee.java  
+```Java
+@Entity  
+@Table(name="regularemployee102")  
+@AttributeOverrides({  
+    @AttributeOverride(name="id", column=@Column(name="id")),  
+    @AttributeOverride(name="name", column=@Column(name="name"))  
+})  
+public class Regular_Employee extends Employee{  
+      
+@Column(name="salary")    
+private float salary;  
+  
+@Column(name="bonus")     
+private int bonus;  
+  
+//setters and getters  
+}  
+```
+File: Contract_Employee.java  
+
+```
+@Entity  
+@Table(name="contractemployee102")  
+@AttributeOverrides({  
+    @AttributeOverride(name="id", column=@Column(name="id")),  
+    @AttributeOverride(name="name", column=@Column(name="name"))  
+})  
+public class Contract_Employee extends Employee{  
+      
+    @Column(name="pay_per_hour")  
+    private float pay_per_hour;  
+      
+    @Column(name="contract_duration")  
+    private String contract_duration;  
+  
+    public float getPay_per_hour() {  
+        return pay_per_hour;  
+    }  
+    public void setPay_per_hour(float payPerHour) {  
+        pay_per_hour = payPerHour;  
+    }  
+    public String getContract_duration() {  
+        return contract_duration;  
+    }  
+    public void setContract_duration(String contractDuration) {  
+        contract_duration = contractDuration;  
+    }  
+}  
+
+```
+
+2. Add mapping of hbm file in configuration file  
+```XML
+<hibernate-configuration>  
+    <session-factory>  
+        <property name="hbm2ddl.auto">update</property>  
+        <property name="dialect">org.hibernate.dialect.Oracle9Dialect</property>  
+        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>  
+        <property name="connection.username">system</property>  
+        <property name="connection.password">oracle</property>  
+<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>  
+          
+        <mapping class="com.javatpoint.mypackage.Employee"/>  
+        <mapping class="com.javatpoint.mypackage.Contract_Employee"/>  
+        <mapping class="com.javatpoint.mypackage.Regular_Employee"/>  
+    </session-factory>  
+</hibernate-configuration>  
+
+```
+
+3. Create the class that stores the persistent object  
 
 
 
