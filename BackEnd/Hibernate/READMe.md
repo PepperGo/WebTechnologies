@@ -1,4 +1,4 @@
-# Hibernate Advance 
+# Hibernate Advanced 
 
 ### Collection Mapping:
 
@@ -14,6 +14,34 @@ You need to use @Inheritance(strategy=InheritanceType.SINGLE_TABLE), @Discrimina
 
 Example:  
 ![](https://www.javatpoint.com/images/hibernate/inheritance1.jpg)  
+You need to follow following steps to create simple example:  
+1. Create the persistent classes  
+
+```Java
+@Entity  
+@Table(name = "employee101")  
+@Inheritance(strategy=InheritanceType.SINGLE_TABLE)  
+@DiscriminatorColumn(name="type",discriminatorType=DiscriminatorType.STRING)  
+@DiscriminatorValue(value="employee")  
+  
+public class Employee {  
+@Id  
+@GeneratedValue(strategy=GenerationType.AUTO)  
+      
+@Column(name = "id")  
+private int id;  
+  
+@Column(name = "name")  
+private String name;  
+  
+//setters and getters  
+}  
+
+```
+
+2. Create the configuration file  
+3. Create the class to store the fetch the data  
+
 
 
 
