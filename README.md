@@ -91,6 +91,7 @@ If you want to build a spring framework MVC application: [Developing a Spring Fr
 #### (2) Struts 2
 
 #### (3) Hibernate
+[Hibernate Tutorial JavaTPoint](https://www.javatpoint.com/hibernate-tutorial)
 [Hibernate Tutorial(video)](https://www.youtube.com/playlist?list=PLEAQNNR8IlB7fNkRsUgzrR346i-UqE5CG)
 [Hibernate](https://www.youtube.com/playlist?list=PL4AFF701184976B25)
 
