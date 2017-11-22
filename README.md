@@ -9,9 +9,18 @@
 
 
 ## What is it?  
+This is my multi-month study plan to become a Full-Stack Web Developer. Actually, even if you are not in the field of web developement, I believe knowledges in web development would definitely help.  
+    
+However, some problems may occur when you are starting to learn web development:
+   * Never know how to start and what to learn?
+   * Lots of knowledges are not covered in schoool.  
+   * Materials, references and videos are so complex online that hard to distinguish whether they are good or not.  
+   * Web technologies developed so fast that cannot catch.  
+   * ...
+   
+The solution is this tutorial, or study-list.   
 
-
-[](http://www.olubukolaagboola.com/wp-content/uploads/2017/02/web-developer-Olubukola-Agboola.png)  
+![](http://www.olubukolaagboola.com/wp-content/uploads/2017/02/web-developer-Olubukola-Agboola.png)  
 
 ## Table of Contents
 * [Front-End](https://github.com/PepperGo/WebTechnologies/tree/master/FrontEnd)
