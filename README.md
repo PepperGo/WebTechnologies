@@ -20,6 +20,8 @@ However, some problems may occur when you are starting to learn web development:
    
 The solution is this tutorial, or study-list.   
 
+If you have many years of software/web development experience, this study-list also could be your checklist to review.
+
 ![](http://www.olubukolaagboola.com/wp-content/uploads/2017/02/web-developer-Olubukola-Agboola.png)  
 
 ## Table of Contents
