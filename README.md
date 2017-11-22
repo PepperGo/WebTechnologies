@@ -1,7 +1,7 @@
 # WebTechnologies
 > Tutorials and materials related to web technologies are so mess online. That's why I created this as a to-do list of study topics for becoming a full-stack developer, or even web scientists. Hope it will contain everything we need for web development one day.    
 >
-> You can go into each directory for more details.  
+> You should go into each directory for more details.  
 >
 > Coding is always mandatory.  
 >
