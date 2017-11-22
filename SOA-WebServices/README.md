@@ -89,7 +89,20 @@ RESTful Web Services are basically REST Architecture based Web Services. ESTful 
 
 
 
-   
+  ## SOA & Web Services   [`More Details`](https://github.com/PepperGo/WebTechnologies/tree/master/SOA-WebServices)
+### 1. SOA
+[Full-Stack Open Source Web Application Development with Java](http://code.scottshipp.com/learn/tutorial-full-stack-open-source-web-application-development-with-java/)  
+
+### 2. Web Services
+#### (1) XML-Based 
+
+
+#### (2) REST-based
+#### RESTful API
+[RESTful Web Services Tutorial](https://www.tutorialspoint.com/restful/index.htm)  
+[REST Web Services](https://www.youtube.com/watch?v=xkKcdK1u95s&index=1&list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn)
+
+##### Good Material 
    
    
    
