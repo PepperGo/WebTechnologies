@@ -29,37 +29,16 @@
     
 * [SOA & Web Services](https://github.com/PepperGo/WebTechnologies/tree/master/SOA-WebServices)
 
-## Front-End   [`More Details`](https://github.com/PepperGo/WebTechnologies/tree/master/FrontEnd)
-### 1. HTML/CSS
-
-
-  
-  
-### 2. JavaScript  
-
-  
-    
-    
-
-### 3. jQuery
-
-  
-  
-### 4. Single page applications
-
-  
-  
-### 5. XML
-
-### 6. Framework
-
-#### AngularJS
+## [Front-End](https://github.com/PepperGo/WebTechnologies/tree/master/FrontEnd)  
+#### HTML/CSS  
+#### JavaScript  
+#### jQuery  
+#### XML  
+#### Framework  
+##### AngularJS
 [W3C AngularJS Tutorial](https://www.w3schools.com/angular/default.asp)  
+##### Vue.js  
 
-
-#### Vue.js
-  
-  
   
 ## Back-End   [`More Details`](https://github.com/PepperGo/WebTechnologies/tree/master/BackEnd)
 
