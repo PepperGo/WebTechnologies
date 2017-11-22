@@ -480,6 +480,44 @@ Hibernate not only takes care of the mapping from Java classes to database table
      
 
     
+## [Back-End](https://github.com/PepperGo/WebTechnologies/tree/master/BackEnd)
+
+### 1. JSP && Servlets  
+[Creating and Configuring Servlets](https://docs.oracle.com/cd/E13222_01/wls/docs92/webapp/configureservlet.html)
+
+##### Good Material
+[JSP Tutorial - Java Server Pages Tutorial(video)](https://www.youtube.com/playlist?list=PLEAQNNR8IlB588DQvb2wbKFQh2DviPApl)  
+[JSP Tutorial - TutorialsPoint](https://www.google.com/search?q=jsp+tutorial&rlz=1C1CHBD_enUS718US718&oq=jsp+tut&aqs=chrome.0.69i59j69i60l3j69i57j0.3684j0j7&sourceid=chrome&ie=UTF-8)   
+
+
+### 2. Framework
+[7 Best Java Frameworks for 2016](https://www.romexsoft.com/blog/7-best-java-frameworks-for-2016/)  
+#### (1) Spring MVC
+Before study spring mvc, it's helpful to learn [Spring Framework](https://www.tutorialspoint.com/spring/index.htm) first.   
+
+Recommend:<br>
+[Web on Servlet Stack(Version 5.0.0.RELEASE)](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc)<br>
+[Green Beans: Getting Started with Spring MVC](https://spring.io/blog/2011/01/04/green-beans-getting-started-with-spring-mvc/)<br>
+[Spring - MVC Framework(TutorialsPoint)](https://www.tutorialspoint.com/springmvc/index.htm)<br>
+
+
+##### Other materials, not very good, but helpful:<br>
+[Spring MVC Tutorial for Beginners(video)](https://www.youtube.com/watch?v=BjNhGaZDr0Y)   [Github: JavaWebApplicationStepByStep](https://github.com/in28minutes/SpringMvcStepByStep)<br>
+If you want to build a spring framework MVC application: [Developing a Spring Framework MVC application step-by-step](https://docs.spring.io/docs/Spring-MVC-step-by-step/)<br>
+[Spring - MVC Framework(TutorialsPoint)](https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm)<br>
+[spring-framework, quick-start](https://projects.spring.io/spring-framework/#quick-start)<br>
+[Spring Tutorial(javatpoint)](https://www.javatpoint.com/spring-3-mvc-tutorial)<br>
+[Spring MVC Tutorials(video)](https://www.youtube.com/watch?v=iCQspqBpOB0&list=PLBgMUB7xGcO31B2gBmy1igpZn6LK78-CJ)<br>
+
+#### (2) Struts 2
+
+#### (3) Hibernate
+[Hibernate Tutorial JavaTPoint](https://www.javatpoint.com/hibernate-tutorial)  
+[Hibernate Tutorial(video)](https://www.youtube.com/playlist?list=PLEAQNNR8IlB7fNkRsUgzrR346i-UqE5CG)  
+[Hibernate](https://www.youtube.com/playlist?list=PL4AFF701184976B25)  
+
+
+#### (4) Jsf
      
     
    
