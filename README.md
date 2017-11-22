@@ -15,11 +15,17 @@
     * Single page applications
     * XML
     * Framework
+      * AngularJS
+      * Vue.js
 
 
 * [Back-End](https://github.com/PepperGo/WebTechnologies/tree/master/BackEnd)
-    * JSP&Servlets
+    * JSP
+    * Servlets
     * Framework
+      * Spring
+      * Spring MVC
+      * Hibernate
 
 * [Database](https://github.com/PepperGo/WebTechnologies/tree/master/Database)
     * JDBC
@@ -28,6 +34,8 @@
     * Redis
     
 * [SOA & Web Services](https://github.com/PepperGo/WebTechnologies/tree/master/SOA-WebServices)
-
+    * SOA
+    * XML-Based Services
+    * RESTful Services
 
 
