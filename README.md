@@ -15,7 +15,7 @@ However, some problems may occur when you are starting to learn web development:
    * Never know how to start and what to learn?
    * Lots of knowledges are not covered in schoool.  
    * Materials, references and videos are so complex online that hard to distinguish whether they are good or not.  
-   * Web technologies developed so fast that cannot catch.  
+   * Web technologies develope so fast that cannot catch.  
    * ...
    
 The solution is this tutorial, or study-list.   
