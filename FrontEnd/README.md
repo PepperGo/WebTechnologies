@@ -1,4 +1,4 @@
-## [Front-End]
+## Front-End
 #### 1. HTML/CSS  
 #### 2. JavaScript  
 #### 3. jQuery  
