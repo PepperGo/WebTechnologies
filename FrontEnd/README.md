@@ -12,5 +12,5 @@
 #### 4. XML  
 #### 5. Framework  
 ##### (1) AngularJS
-   - [ ] [W3C AngularJS Tutorial](https://www.w3schools.com/angular/default.asp)  
+
 ##### (2) Vue.js  
