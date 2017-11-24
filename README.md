@@ -9,7 +9,7 @@
 
 
 ## What is it?  
-This is my multi-month study plan to become a Full-Stack Web Developer. Actually, even if you are not in the field of web developement, I believe knowledges in web development would definitely help.  
+This is my multi-month study plan or review plan to become a Full-Stack Web Developer. Actually, even if you are not in the field of web developement, I believe knowledges in web development would definitely help.  
     
 However, some problems may occur when you are starting to learn web development:
    * Never know how to start and what to learn?
