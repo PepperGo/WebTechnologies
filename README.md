@@ -31,6 +31,7 @@ If you have many years of software/web development experience, this study-list a
     * jQuery
     * Single page applications
     * XML
+    * Node.js
     * Framework
       * AngularJS
       * Vue.js
