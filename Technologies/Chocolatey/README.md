@@ -11,3 +11,4 @@ See [Command Reference](https://github.com/chocolatey/choco/wiki/CommandsReferen
 
 # Reference
 1. Chocolatey Official Document https://chocolatey.org
+2. Chocolatey Github https://github.com/chocolatey
