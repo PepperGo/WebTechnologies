@@ -41,12 +41,11 @@ Hopefully, you will see:
 Open your web browser and go to http://localhost:3000 to see the app running.  
 
 One of the best features of Meteor is reactive programming and hot code pushes.  
-For example, try editing the text in <h1> inside client/main.html using your favorite text editor. When you save the file, the page in your browser will automatically update with the new content. We call this "hot code push".  
+For example, try editing the text in \<h1\> inside client\/main.html using your favorite text editor. When you save the file, the page in your browser will automatically update with the new content. We call this "hot code push".  
 
 
 ### 2. More...
-Please refer to [Todo App with Angular
-Integrate Meteor and AngularJS](https://www.meteor.com/tutorials/angular/creating-an-app)
+Please refer to [Todo App with Angular Integrate Meteor and AngularJS](https://www.meteor.com/tutorials/angular/creating-an-app)
 
 
 
