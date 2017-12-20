@@ -121,6 +121,28 @@ In this step, we'll add a client-side data filtering feature to our app, so that
 
 #### 7.7  Display incompleteCount
 
+### 8. Adding user accounts
+
+#### 8.1 To enable the accounts system and UI, we need to add the relevant packages.
+```meteor add accounts-ui accounts-password```
+
+#### 8.2  Include loginButtons
+
+#### 8.3  Configure accounts-ui
+
+#### 8.4  Import accounts configuration
+
+#### 8.5  Update insert to include user data
+
+#### 8.6  Only show add task form if logged in
+
+#### 8.7  Display username next to task
+
+
+
+
+
+
 ## Reference
 1. Introducing Meteor API Docs http://docs.meteor.com
 2. Getting Started with Meteor.js JavaScript Framework(Isaac Strack)
