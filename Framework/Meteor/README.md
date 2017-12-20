@@ -8,6 +8,8 @@ Meteor includes a key set of technologies for building connected-client reactive
 3. Meteor **embraces the ecosystem**, bringing the best parts of the extremely active JavaScript community to you in a careful and considered way.  
 4. Meteor provides **full stack reactivity**, allowing your UI to seamlessly reflect the true state of the world with minimal development effort.  
 
+## Problem you may face when you are using Meteor
+Please refer to [Problems I met](https://github.com/PepperGo/WebTechnologies/blob/master/Framework/Meteor/Problems.md)
 
 ## Install
 ### OSX/LINUX  
@@ -16,7 +18,27 @@ Meteor includes a key set of technologies for building connected-client reactive
 ### WINDOWS  
 Please see [Install Meteor In Windows](https://github.com/PepperGo/WebTechnologies/blob/master/Framework/Meteor/InstallInWindows.md)
 
-##  Todo App with Angular 
+##  Todo App with Angular(From Meteor Offical Tutorial) 
+### 1. Creating your first app  
+To create the app, open your terminal and type:  
+```meteor create simple-todos```
+
+To run the newly created app:  
+```
+cd simple-todos
+meteor
+```
+Hopefully, you will see:
+```
+=> Started proxy.
+=> Started MongoDB.
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+   Type Control-C twice to stop.
+```
+
+Open your web browser and go to http://localhost:3000 to see the app running.  
 
 
 
