@@ -47,11 +47,15 @@ For example, try editing the text in \<h1\> inside client\/main.html using your 
 
 ### 2. Defining views with templates
 To use Angular in our app, we first need to remove the default UI package of Meteor, called Blaze.  
-```meteor remove blaze-html-templates```
+```meteor remove blaze-html-templates```  
+
 Now we need to replace it with UI package for angular:  
-```meteor add angular-templates```
+```meteor add angular-templates```  
+
 To start working with angular-meteor, let's add some NPM packages.  
-```meteor npm install --save angular angular-meteor``` 
+```meteor npm install --save angular angular-meteor```   
+
+
 
 For more detail, please refer to [Todo App with Angular Integrate Meteor and AngularJS](https://www.meteor.com/tutorials/angular/creating-an-app)
 
