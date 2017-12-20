@@ -19,6 +19,7 @@ Please refer to [Problems I met](https://github.com/PepperGo/WebTechnologies/blo
 Please see [Install Meteor In Windows](https://github.com/PepperGo/WebTechnologies/blob/master/Framework/Meteor/InstallInWindows.md)
 
 ##  Todo App with Angular(From Meteor Offical Tutorial) 
+[Project Detail(Official)](https://github.com/meteor/simple-todos-angular)
 ### 1. Creating your first app  
 To create the app, open your terminal and type:  
 ```meteor create simple-todos```
@@ -44,8 +45,15 @@ One of the best features of Meteor is reactive programming and hot code pushes.
 For example, try editing the text in \<h1\> inside client\/main.html using your favorite text editor. When you save the file, the page in your browser will automatically update with the new content. We call this "hot code push".  
 
 
-### 2. More...
-Please refer to [Todo App with Angular Integrate Meteor and AngularJS](https://www.meteor.com/tutorials/angular/creating-an-app)
+### 2. Defining views with templates
+To use Angular in our app, we first need to remove the default UI package of Meteor, called Blaze.  
+```meteor remove blaze-html-templates```
+Now we need to replace it with UI package for angular:  
+```meteor add angular-templates```
+To start working with angular-meteor, let's add some NPM packages.  
+```meteor npm install --save angular angular-meteor``` 
+
+For more detail, please refer to [Todo App with Angular Integrate Meteor and AngularJS](https://www.meteor.com/tutorials/angular/creating-an-app)
 
 
 
