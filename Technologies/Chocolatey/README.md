@@ -4,5 +4,10 @@ Chocolatey is a package manager for Windows (like apt-get or yum but for Windows
 ## How to install Chocolatey
 See [Installing Chocolatey](https://chocolatey.org/install)
 
+
+## Useful Commands
+See [Command Reference](https://github.com/chocolatey/choco/wiki/CommandsReference)
+
+
 # Reference
 1. Chocolatey Official Document https://chocolatey.org
