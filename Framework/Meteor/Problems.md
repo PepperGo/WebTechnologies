@@ -40,4 +40,18 @@ npm ERR!     C:\Users\Mark\AppData\Roaming\npm-cache\_logs\2017-12-20T17_29_01_8
 Check Git Environment Variable and add it into SYSTEM PATH
 
 
+## meteor
+```
+D:\Workspace\WorkspaceWeb\Meteor\simple-todos>meteor
+[[[[[ ~\D\Workspace\WorkspaceWeb\Meteor\simple-todos ]]]]]
 
+=> Started proxy.
+=> Errors prevented startup:
+
+   While building for web.browser:
+   imports/components/todosList/todosList.js:20: Unexpected token (20:0)
+
+=> Your application has errors. Waiting for file change.
+=> Started MongoDB.
+```
+### Solution: pending
