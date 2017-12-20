@@ -102,8 +102,24 @@ Now, we will learn how to update and remove them.
 
 #### 5.4  Import Task component from the body
 
+### 6. Running your app on Android or iOS
 
 
+### 7. Storing temporary UI state in a Reactive Dictionary
+In this step, we'll add a client-side data filtering feature to our app, so that users can check a box to only see incomplete tasks. We're going to learn how to use a ReactiveDict to store temporary reactive state on the client. A ReactiveDict is like a normal JS object with keys and values, but with built-in reactivity.
+#### 7.1  Add hide-completed checkbox to HTML
+
+#### 7.2  Add the reactive-dict package
+
+#### 7.3  Add state dictionary to the body
+
+#### 7.4  Add event handler for checkbox
+
+#### 7.5  Add helpers to body template
+
+#### 7.6  Add incompleteCount helper to body
+
+#### 7.7  Display incompleteCount
 
 ## Reference
 1. Introducing Meteor API Docs http://docs.meteor.com
