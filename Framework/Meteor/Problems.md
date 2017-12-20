@@ -36,7 +36,8 @@ npm ERR!     C:\Users\Mark\AppData\Roaming\npm-cache\_logs\2017-12-20T17_29_01_8
     at C:\tools\cli\main.js:1522:15
 
 ```
-Solution: Check Git Environment Variable and add it into SYSTEM PATH
+### Solution: 
+Check Git Environment Variable and add it into SYSTEM PATH
 
 
 
