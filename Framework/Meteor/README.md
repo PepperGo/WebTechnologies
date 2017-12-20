@@ -74,11 +74,17 @@ Notice that we place this file in a new imports/api directory. This is a sensibl
 
 For more detail, please refer to [Storing tasks in a collection](https://www.meteor.com/tutorials/angular/collections)
 
+### 4. Adding tasks with a form
+#### 4.1  Add form for new tasks
 
+#### 4.2  Add method for form submit
 
+#### 4.3  Show newest tasks at the top
 
 ## Reference
 1. Introducing Meteor API Docs http://docs.meteor.com
 2. Getting Started with Meteor.js JavaScript Framework(Isaac Strack)
 3. Official tutorial https://www.meteor.com/tutorials/blaze/creating-an-app
 4. Meteor Guide(intermediate material) https://guide.meteor.com
+
+
