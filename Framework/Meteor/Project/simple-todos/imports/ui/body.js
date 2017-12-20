@@ -1,3 +1,4 @@
+import { Meteor } from 'meteor/meteor';
 import { Template } from 'meteor/templating';
 import { ReactiveDict } from 'meteor/reactive-dict';
 
@@ -21,7 +22,7 @@ Template.body.helpers({
     // Otherwise, return all of the tasks
       return Tasks.find({}, { sort: { createdAt: -1 } });
   },
-   incompleteCount() {
+  incompleteCount() {
     return Tasks.find({ checked: { $ne: true } }).count();
   },
 });
@@ -39,6 +40,8 @@ Template.body.events({
     Tasks.insert({
       text,
       createdAt: new Date(), // current time
+	  owner: Meteor.userId(),
+      username: Meteor.user().username,
     });
  
     // Clear form
