@@ -138,10 +138,16 @@ In this step, we'll add a client-side data filtering feature to our app, so that
 
 #### 8.7  Display username next to task
 
+### 9. Security with methods
+#### 9.1 Removing insecure
+Every newly created Meteor project has the insecure package added by default. This is the package that allows us to edit the database from the client. It's useful when prototyping, but now we are taking off the training wheels. 
+``` meteor remove insecure ```
 
+#### 9.2  Define some methods
 
+#### 9.3  Replace insert with addTask method
 
-
+#### 9.4  Replace update and remove with methods
 
 ## Reference
 1. Introducing Meteor API Docs http://docs.meteor.com
