@@ -59,6 +59,10 @@ To start working with angular-meteor, let's add some NPM packages.
 
 For more detail, please refer to [Todo App with Angular Integrate Meteor and AngularJS](https://www.meteor.com/tutorials/angular/creating-an-app)
 
+### 3. Storing tasks in a collection
+Collections are Meteor's way of storing persistent data. The special thing about collections in Meteor is that they can be accessed from both the server and the client, making it easy to write view logic without having to write a lot of server code.   
+They also update themselves automatically, so a view component backed by a collection will automatically display the most up-to-date data.  
+
 
 
 
