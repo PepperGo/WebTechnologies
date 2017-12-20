@@ -54,4 +54,6 @@ D:\Workspace\WorkspaceWeb\Meteor\simple-todos>meteor
 => Your application has errors. Waiting for file change.
 => Started MongoDB.
 ```
-### Solution: pending
+### Solution: 
+The codes in official tutorial is wrong.
+One more line should be added: ```export default angular.module('todosList', [])```
