@@ -63,7 +63,16 @@ For more detail, please refer to [Todo App with Angular Integrate Meteor and Ang
 Collections are Meteor's way of storing persistent data. The special thing about collections in Meteor is that they can be accessed from both the server and the client, making it easy to write view logic without having to write a lot of server code.   
 They also update themselves automatically, so a view component backed by a collection will automatically display the most up-to-date data.  
 
+Creating a new collection is as easy as calling ```MyCollection = new Mongo.Collection("my-collection"); ```in your JavaScript. 
+On the server, this sets up a MongoDB collection called ```my-collection```; on the client, this creates a cache connected to the server collection. 
+#### 3.1 Create tasks collection
+Notice that we place this file in a new imports/api directory. This is a sensible place to store API-related files for the application. We will start by putting "collections" here and later we will add "publications" that read from them and "methods" that write to them. 
+#### 3.2 Load tasks collection on the server
 
+#### 3.3 Load tasks from Tasks collection
+
+
+For more detail, please refer to [Storing tasks in a collection](https://www.meteor.com/tutorials/angular/collections)
 
 
 
