@@ -18,7 +18,7 @@ Please refer to [Problems I met](https://github.com/PepperGo/WebTechnologies/blo
 ### WINDOWS  
 Please see [Install Meteor In Windows](https://github.com/PepperGo/WebTechnologies/blob/master/Framework/Meteor/InstallInWindows.md)
 
-##  Todo App with Angular(From Meteor Offical Tutorial) 
+##  Todo App(From Meteor Offical Tutorial) 
 [Project Detail(Official)](https://github.com/meteor/simple-todos-angular)
 ### 1. Creating your first app  
 To create the app, open your terminal and type:  
@@ -46,6 +46,7 @@ For example, try editing the text in \<h1\> inside client\/main.html using your 
 
 
 ### 2. Defining views with templates
+#### For use Angular
 To use Angular in our app, we first need to remove the default UI package of Meteor, called Blaze.  
 ```meteor remove blaze-html-templates```  
 
@@ -55,9 +56,18 @@ Now we need to replace it with UI package for angular:
 To start working with angular-meteor, let's add some NPM packages.  
 ```meteor npm install --save angular angular-meteor```   
 
-
-
 For more detail, please refer to [Todo App with Angular Integrate Meteor and AngularJS](https://www.meteor.com/tutorials/angular/creating-an-app)
+
+#### For Blaze(default)
+#### 2.1 Remove starter HTML code
+
+#### 2.2 Add starter HTML code
+
+#### 2.3 Add starter JS code
+
+#### 2.4 Import starter JS
+
+#### 2.5 Add CSS
 
 ### 3. Storing tasks in a collection
 Collections are Meteor's way of storing persistent data. The special thing about collections in Meteor is that they can be accessed from both the server and the client, making it easy to write view logic without having to write a lot of server code.   
@@ -80,6 +90,20 @@ For more detail, please refer to [Storing tasks in a collection](https://www.met
 #### 4.2  Add method for form submit
 
 #### 4.3  Show newest tasks at the top
+
+### 5. Checking off and deleting tasks
+Now, we will learn how to update and remove them.
+
+#### 5.1  Add buttons to Task component
+
+#### 5.2 Remove the previous task template 
+
+#### 5.3  Add event handlers for Task buttons
+
+#### 5.4  Import Task component from the body
+
+
+
 
 ## Reference
 1. Introducing Meteor API Docs http://docs.meteor.com
