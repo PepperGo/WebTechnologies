@@ -9,8 +9,12 @@ Meteor includes a key set of technologies for building connected-client reactive
 4. Meteor provides **full stack reactivity**, allowing your UI to seamlessly reflect the true state of the world with minimal development effort.  
 
 
+## Install
+### OSX/LINUX  
+```curl https://install.meteor.com/ | sh```
 
-
+### WINDOWS  
+Please see [Install Meteor In Windows](https://github.com/PepperGo/WebTechnologies/blob/master/Framework/Meteor/InstallInWindows.md)
 
 
 
