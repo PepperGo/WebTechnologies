@@ -149,6 +149,31 @@ Every newly created Meteor project has the insecure package added by default. Th
 
 #### 9.4  Replace update and remove with methods
 
+### 10. Filtering data with publish and subscribe
+Now that we have moved all of our app's sensitive code into methods, we need to learn about the other half of Meteor's security story. Until now, we have worked assuming the entire database is present on the client, meaning if we call Tasks.find() we will get every task in the collection. That's not good if users of our application want to store privacy-sensitive data. We need a way of controlling which data Meteor sends to the client-side database.
+#### 10.1 Removing autopublish
+All new Meteor apps start with the autopublish package
+```meteor remove autopublish```
+
+#### 10.2 Add publication for tasks
+
+#### 10.3 Subscribe to tasks
+
+#### 10.4 Add private button
+
+#### 10.5 Add private class to private tasks
+
+#### 10.6 Define helper to check ownership
+
+#### 10.7 Define method to set tasks to private
+
+#### 10.8 Add event handler to call the setPrivate method
+
+#### 10.9 Only publish tasks the user is allowed to see
+
+#### 10.10 Add some extra security to methods
+
+
 ## Reference
 1. Introducing Meteor API Docs http://docs.meteor.com
 2. Getting Started with Meteor.js JavaScript Framework(Isaac Strack)
