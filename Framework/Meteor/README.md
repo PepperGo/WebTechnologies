@@ -173,6 +173,19 @@ All new Meteor apps start with the autopublish package
 
 #### 10.10 Add some extra security to methods
 
+### 11. Testing(Mocha JavaScript test framework)
+We'll write a test that exercises one of our Methods (which form the "write" part of our app's API), and verifies it works correctly.
+#### 11.1 Add a test driver for the Mocha JavaScript test framework
+```meteor add practicalmeteor:mocha ```
+
+#### 11.2 Add a scaffold for a method test
+
+#### 11.3 Prepare the database for each test
+
+#### 11.4 Added test to check delete method
+
+
+
 
 ## Reference
 1. Introducing Meteor API Docs http://docs.meteor.com
