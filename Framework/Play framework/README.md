@@ -1,4 +1,7 @@
 # Play Framework
+Play is a series of libraries available in Maven Repository, so you can use any Java build tool to build a Play project.   
+However, much of the development experience Play is known for (routes, templates compilation and auto-reloading) is provided by SBT
+
 
 ## Install
 
