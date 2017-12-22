@@ -160,7 +160,7 @@ You can ask Play to start a JPDA debug port when starting the console. You can t
 
 
 # Setting up your preferred IDE
-Please refer to [Official Document](Setting up your preferred IDE)
+Please refer to [Official Document](https://www.playframework.com/documentation/2.6.x/IDE)
 
 
 
