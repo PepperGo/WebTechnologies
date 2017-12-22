@@ -7,14 +7,13 @@ For example, the Java MVC API is under play.mvc and the Scala MVC API is under p
 
 ## HTTP programming
 ### 1. Actions, Controllers and Results  
-Most of the requests received by a Play application are handled by an action. An action is basically a Java method that processes the request parameters, and produces a result to be sent to the client.  
-A controller is nothing more than a class extending play.mvc.Controller that groups several action methods.  
-These results are defined by play.mvc.Result, and the play.mvc.Results class provides several helpers to produce standard HTTP results, such as the ok method.  
+Most of the requests received by a Play application are handled by an action. An **action** is basically a Java method that processes the request parameters, and produces a result to be sent to the client.  
+A **controller** is nothing more than a class extending play.mvc.Controller that groups several action methods.  
+These **results** are defined by play.mvc.Result, and the play.mvc.Results class provides several helpers to produce standard HTTP results, such as the ok method.  
+
+### 2. HTTP routing  
 
 
-
-
-2. HTTP routing
 3. Manipulating the HTTP response
 4. Session and Flash scopes
 5. Body parsers
