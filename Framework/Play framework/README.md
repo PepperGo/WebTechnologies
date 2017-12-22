@@ -159,6 +159,9 @@ You can ask Play to start a JPDA debug port when starting the console. You can t
  You can also run commands directly without entering the Play console. For example, enter ```sbt run:```
 
 
+# Setting up your preferred IDE
+Please refer to [Official Document](Setting up your preferred IDE)
+
 
 
 
