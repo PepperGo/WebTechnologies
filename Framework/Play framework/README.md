@@ -224,7 +224,7 @@ For more details of each directory, please refer to [Official Document](https://
 
 
 # Play Tutorials
-Please refer to [Play Tutorials](https://github.com/PepperGo/WebTechnologies/new/master/Framework/Play%20framework)
+Please refer to [Play Tutorials](https://github.com/PepperGo/WebTechnologies/blob/master/Framework/Play%20framework/PlayTutorials.md)
 
 
 # Reference
