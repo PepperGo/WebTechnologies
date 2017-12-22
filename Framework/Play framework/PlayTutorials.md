@@ -12,6 +12,11 @@ A **controller** is nothing more than a class extending play.mvc.Controller that
 These **results** are defined by play.mvc.Result, and the play.mvc.Results class provides several helpers to produce standard HTTP results, such as the ok method.  
 
 ### 2. HTTP routing  
+The router is the component that translates each incoming HTTP request to an action call (a public method in a controller class).  
+An HTTP request is seen as an event by the MVC framework. This event contains two major pieces of information:
+1. the request path (such as /clients/1542, /photos/list), including the query string.  
+2. the HTTP method (GET, POST, …).  
+
 
 
 3. Manipulating the HTTP response
