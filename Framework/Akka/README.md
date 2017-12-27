@@ -12,3 +12,10 @@ Distributed systems must cope in an environment where components crash without r
 
 Akka’s use of the actor model provides a level of abstraction that makes it easier to write correct concurrent, parallel and distributed systems.  
 
+## New To Akka
+Read the official tutorial [Akka Quickstart with Java](https://developer.lightbend.com/guides/akka-quickstart-java/?_ga=2.242574986.900790249.1514412953-1749038404.1513753107?_ga=2.242574986.900790249.1514412953-1749038404.1513753107?_ga=2.242574986.900790249.1514412953-1749038404.1513753107?_ga=2.242574986.900790249.1514412953-1749038404.1513753107) for instructions on downloading and running the Hello World example.     
+
+
+
+## Reference
+1. Akka Official Documentation https://akka.io/docs/
