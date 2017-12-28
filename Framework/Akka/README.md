@@ -34,7 +34,7 @@ Read the official tutorial [Akka Quickstart with Java](https://developer.lightbe
 - Concurrent systems with work delegation needs to handle service faults and have principled means to recover from them. Clients of such services need to be aware that tasks/messages might get lost during restarts. Even if loss does not happen, a response might be delayed arbitrarily due to previously enqueued tasks (a long queue), delays caused by garbage collection, etc. In face of these, concurrent systems should handle response deadlines in the form of timeouts, just like networked/distributed systems.
 
 
-### How the Actor Model Meets the Needs of Modern, Distributed Systems
+## How the Actor Model Meets the Needs of Modern, Distributed Systems
 
 
 ## Reference
