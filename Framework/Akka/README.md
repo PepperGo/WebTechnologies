@@ -36,6 +36,8 @@ Read the official tutorial [Akka Quickstart with Java](https://developer.lightbe
 
 ## How the Actor Model Meets the Needs of Modern, Distributed Systems
 
+### Actor Model
+Please refer to [Actor Model](https://github.com/PepperGo/WebTechnologies/blob/master/Technologies/ActorModel/READMe.md)
 
 ## Reference
 1. Akka Official Documentation https://akka.io/docs/
