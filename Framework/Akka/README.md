@@ -35,7 +35,7 @@ Read the official tutorial [Akka Quickstart with Java](https://developer.lightbe
 
 
 ## How the Actor Model Meets the Needs of Modern, Distributed Systems
-
+For [details](https://doc.akka.io/docs/akka/current/guide/actors-intro.html)
 ### Actor Model
 Please refer to [Actor Model](https://github.com/PepperGo/WebTechnologies/blob/master/Technologies/ActorModel/READMe.md)
 
@@ -47,6 +47,38 @@ The following characteristics of Akka allow you to solve difficult concurrency a
 - Strong isolation principles — Unlike regular objects in Java, an Actor does not have a public API in terms of methods that you can invoke. Instead, its public API is defined through messages that the actor handles. This prevents any sharing of state between Actors; the only way to observe another actor’s state is by sending it a message asking for it.
 - Location transparency — The system constructs Actors from a factory and returns references to the instances. Because location doesn’t matter, Actor instances can start, stop, move, and restart to scale up and down as well as recover from unexpected failures.
 Lightweight — Each instance consumes only a few hundred bytes, which realistically allows millions of concurrent Actors to exist in a single application.
+
+Use of actors allows us to:
+- Enforce encapsulation without resorting to locks.
+- Use the model of cooperative entities reacting to signals, changing state, and sending signals to each other to drive the whole application forward.
+- Stop worrying about an executing mechanism which is a mismatch to our world view.
+
+
+### Usage of message passing avoids locking and blocking
+Instead of calling methods, actors send messages to each other. Sending a message does not transfer the thread of execution from the sender to the destination. An actor can send a message and continue without blocking. Therefore, it can accomplish more in the same amount of time.  
+
+An important difference between passing messages and calling methods is that messages have no return value. By sending a message, an actor delegates work to another actor. As we saw in The illusion of a call stack, if it expected a return value, the sending actor would either need to block or to execute the other actor’s work on the same thread. Instead, the receiving actor delivers the results in a reply message.  
+
+In summary, this is what happens when an actor receives a message:
+- The actor adds the message to the end of a queue.
+- If the actor was not scheduled for execution, it is marked as ready to execute.
+- A (hidden) scheduler entity takes the actor and starts executing it.
+- Actor picks the message from the front of the queue.
+- Actor modifies internal state, sends messages to other actors.
+- The actor is unscheduled.
+
+
+To accomplish this behavior, actors have:
+- A mailbox (the queue where messages end up).
+- A behavior (the state of the actor, internal variables etc.).
+- Messages (pieces of data representing a signal, similar to method calls and their parameters).
+- An execution environment (the machinery that takes actors that have messages to react to and invokes their message handling code).
+- An address (more on this later).
+
+
+### Actors handle error situations gracefully 
+
+
 
 ## Reference
 1. Akka Official Documentation https://akka.io/docs/
