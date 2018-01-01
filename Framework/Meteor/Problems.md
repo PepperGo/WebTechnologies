@@ -57,3 +57,26 @@ D:\Workspace\WorkspaceWeb\Meteor\simple-todos>meteor
 ### Solution: 
 The codes in official tutorial is wrong.
 One more line should be added: ```export default angular.module('todosList', [])```
+
+# TESTING
+## meteor add practicalmeteor:mocha
+```
+>meteor add practicalmeteor:mocha
+practicalmeteor:mocha without a version constraint has already been added.
+``` 
+### Solution
+
+```>meteor add practicalmeteor:mocha@=2.4.5-rc5.5 ```  
+```
+Currently using practicalmeteor:mocha without any version constraint.
+The version constraint will be changed to =2.4.5-rc5.5.
+
+Changes to your project's package version selections:
+
+practicalmeteor:mocha  downgraded from 2.4.5_6 to 2.4.5-rc5.5
+
+
+practicalmeteor:mocha: Write package tests with mocha and run them in the browser or from the command line with
+spacejam.
+
+```
