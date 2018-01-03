@@ -38,6 +38,8 @@ Please refer to [Setting Up a Selenium-WebDriver Project](http://www.seleniumhq.
 ### Introducing the Selenium-WebDriver API by Example
 Please refer to [Introducing the Selenium-WebDriver API by Example](http://www.seleniumhq.org/docs/03_webdriver.jsp)
 
+### Selenium-WebDriver API Commands and Operations
+Please refer to [Selenium-WebDriver API Commands and Operations](http://www.seleniumhq.org/docs/03_webdriver.jsp)
 
 
 ## Reference
