@@ -63,3 +63,4 @@ For more details, please refer to [WebDriver: Advanced Usage](http://www.seleniu
 2. Selenium tutorial http://toolsqa.com/selenium-tutorial/
 3. Selenium tutorial(Chinese) http://www.51testing.com/zhuanti/selenium.html
 4. Selenium video tutorial from Youtube https://www.youtube.com/results?search_query=selenium+tutorial
+5. [What is Selenium](https://www.edureka.co/blog/what-is-selenium/?utm_source=youtube&utm_medium=youtube-description&utm_campaign=selenium-tutorial-video)
