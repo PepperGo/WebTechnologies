@@ -44,6 +44,14 @@ If you have many years of software/web development experience, this study-list a
       * Spring
       * Spring MVC
       * Hibernate
+      
+* [Framework](https://github.com/PepperGo/WebTechnologies/tree/master/Framework)
+    * Akka
+    * Meteor
+    * Play Framework
+    * Spring/Spring MVC
+    * Hibernate
+    * Jersey
 
 * [Database](https://github.com/PepperGo/WebTechnologies/tree/master/Database)
     * JDBC
