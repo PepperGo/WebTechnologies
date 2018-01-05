@@ -56,6 +56,22 @@ If you have many years of software/web development experience, this study-list a
     * XML-Based Services
     * RESTful Services
 
+* [Techniques](https://github.com/PepperGo/WebTechnologies/tree/master/Technologies)
+    * ActorModel
+    * Chocolatey
+    * Java
+    * Python
+    * SBT
+    
+* [Testing](https://github.com/PepperGo/WebTechnologies/tree/master/Testing)
+    * Extend Report
+    * Mocha
+    * Selenium
+    
+    
+* [Others](https://github.com/PepperGo/WebTechnologies/tree/master/Others)
+    * Regex
+    
 
 ## Why use it?
 
