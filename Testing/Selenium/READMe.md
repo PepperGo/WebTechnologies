@@ -58,6 +58,11 @@ For more details, please refer to [WebDriver: Advanced Usage](http://www.seleniu
 
 ### Browser Startup Manipulation
 
+
+## Selenium with Maven
+A good material [Maven & Jenkins with Selenium: Complete Tutorial](https://www.guru99.com/maven-jenkins-with-selenium-complete-tutorial.html)
+
+
 ## Reference
 1. Selenium Official Documentation http://www.seleniumhq.org/docs/
 2. Selenium tutorial http://toolsqa.com/selenium-tutorial/
@@ -65,3 +70,4 @@ For more details, please refer to [WebDriver: Advanced Usage](http://www.seleniu
 4. Selenium video tutorial from Youtube https://www.youtube.com/results?search_query=selenium+tutorial
 5. [What is Selenium](https://www.edureka.co/blog/what-is-selenium/?utm_source=youtube&utm_medium=youtube-description&utm_campaign=selenium-tutorial-video)
 6. [Selenium Integration With Maven|Create Maven Project|Write Selenium Test Cases|](https://www.youtube.com/watch?v=SYgwVC_166c)
+7. [Maven & Jenkins with Selenium: Complete Tutorial](https://www.guru99.com/maven-jenkins-with-selenium-complete-tutorial.html)
