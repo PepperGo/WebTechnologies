@@ -21,9 +21,15 @@ The main features of web sockets are as follows:
 HTTP has its own set of schemas such as http and https. Web socket protocol also has similar schema defined in its URL pattern.
 
 The following image shows the Web Socket URL in tokens.   
-[](https://www.tutorialspoint.com/websockets/images/protocol.jpg)
+![](https://www.tutorialspoint.com/websockets/images/protocol.jpg)
 
-
+## WebSockets - Duplex Communication
+The existing techniques that are used for duplex communication between the server and the client.
+- Polling
+- Long Polling
+- Streaming
+- Postback and AJAX
+- HTML5
 
 
 
