@@ -57,7 +57,17 @@ Importance of Web Socket for developers and architects：
 5. On the server side, the industry standard is to use existing protocol libraries that run on top of TCP and leverage a Web Socket Gateway.
 
 
+Web Socket connections are initiated via HTTP; HTTP servers typically interpret Web Socket handshakes as an Upgrade request.
 
+Web Sockets can both be a complementary add-on to an existing HTTP environment and can provide the required infrastructure to add web functionality. It relies on more advanced, full duplex protocols that allow data to flow in both directions between client and server.
+
+### Functions of Web Sockets
+Web Sockets provide a connection between the web server and a client such that both the parties can start sending the data.  
+The steps for establishing the connection of Web Socket are as follows:
+1. The client establishes a connection through a process known as Web Socket handshake.  
+2. The process begins with the client sending a regular HTTP request to the server.  
+3. An Upgrade header is requested. In this request, it informs the server that request is for Web Socket connection.   
+4. Web Socket URLs use the ws scheme. They are also used for secure Web Socket connections, which are the equivalent to HTTPs.  
 
 
 
