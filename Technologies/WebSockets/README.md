@@ -63,11 +63,18 @@ Web Sockets can both be a complementary add-on to an existing HTTP environment a
 
 ### Functions of Web Sockets
 Web Sockets provide a connection between the web server and a client such that both the parties can start sending the data.  
-The steps for establishing the connection of Web Socket are as follows:
+The steps for establishing the connection of Web Socket are as follows:  
 1. The client establishes a connection through a process known as Web Socket handshake.  
 2. The process begins with the client sending a regular HTTP request to the server.  
 3. An Upgrade header is requested. In this request, it informs the server that request is for Web Socket connection.   
 4. Web Socket URLs use the ws scheme. They are also used for secure Web Socket connections, which are the equivalent to HTTPs.  
+
+## WebSockets - Implementation
+Web Sockets occupy a key role not only in the web but also in the mobile industry. The importance of Web Sockets is given below.  
+1. Web Sockets as the name indicates, are related to the web. Web consists of a bunch of techniques for some browsers; it is a broad communication platform for vast number of devices, including desktop computers, laptops, tablets and smart phones.  
+2. HTML5 app that utilizes Web Sockets will work on any HTML5 enabled web browser.  
+3. Web socket is supported in the mainstream operating systems. All key players in the mobile industry provide Web Socket APIs in own native apps.  
+4. Web sockets are said to be a full duplex communication. The approach of Web Sockets works well for certain categories of web application such as chat room, where the updates from client as well as server are shared simultaneously.  
 
 
 
