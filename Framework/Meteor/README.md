@@ -194,5 +194,5 @@ We'll write a test that exercises one of our Methods (which form the "write" par
 2. Getting Started with Meteor.js JavaScript Framework(Isaac Strack)
 3. Official tutorial https://www.meteor.com/tutorials/blaze/creating-an-app
 4. Meteor Guide(intermediate material) https://guide.meteor.com
-
+5. Discover Meteor http://zh.discovermeteor.com/
 
