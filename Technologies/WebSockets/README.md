@@ -77,6 +77,8 @@ Web Sockets occupy a key role not only in the web but also in the mobile industr
 4. Web sockets are said to be a full duplex communication. The approach of Web Sockets works well for certain categories of web application such as chat room, where the updates from client as well as server are shared simultaneously.  
 ![](https://www.tutorialspoint.com/websockets/images/web_socket.jpg)
 
+- Reduce unnecessary network traffic and latency using full duplex through a single connection (instead of two).
+- Streaming through proxies and firewalls, with the support of upstream and downstream communication simultaneously.
 
 ## Reference
 1. WebSockets Tutorial https://www.tutorialspoint.com/websockets/index.htm
