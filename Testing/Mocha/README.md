@@ -93,7 +93,12 @@ describe("Color Code Converter", function() {
   });
 });
 ```
+Notice the ```.to.deep.equal``` part of the above snippet. It is called a matcher, and it matches the result of a feature with an expected value. There are of course many other matchers defined in the Chai libary, that can match expectations by various criteria. For example, to check the equality of two simple objects, we could write:
+```
+expect(1+1).to.equal(2)
+```
 
+In the above example, we have used the ```deep.equal``` because we were comparing two nested objects. The ```.deep``` part tells Chai to match all the elements of the arrays, one by one.
 
 
 ## Test data
