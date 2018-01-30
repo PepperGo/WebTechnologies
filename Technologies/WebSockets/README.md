@@ -75,7 +75,7 @@ Web Sockets occupy a key role not only in the web but also in the mobile industr
 2. HTML5 app that utilizes Web Sockets will work on any HTML5 enabled web browser.  
 3. Web socket is supported in the mainstream operating systems. All key players in the mobile industry provide Web Socket APIs in own native apps.  
 4. Web sockets are said to be a full duplex communication. The approach of Web Sockets works well for certain categories of web application such as chat room, where the updates from client as well as server are shared simultaneously.  
-
+![](https://www.tutorialspoint.com/websockets/images/web_socket.jpg)
 
 
 ## Reference
