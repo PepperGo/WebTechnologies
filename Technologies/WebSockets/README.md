@@ -32,6 +32,30 @@ The existing techniques that are used for duplex communication between the serve
 - HTML5
 
 
+### Why Do We Need Web Sockets?
+Internet was conceived to be a collection of Hypertext Mark-up Language (HTML) pages linking one another to form a conceptual web of information. During the course of time, static resources increased in number and richer items, such as images and began to be a part of the web fabric.
+
+Server technologies advanced which allowed dynamic server pages - pages whose content was generated based on a query.
+
+Soon, the requirement to have more dynamic web pages lead to the availability of Dynamic Hypertext Mark-up Language (DHTML). All thanks to JavaScript. Over the following years, we saw cross frame communication in an attempt to avoid page reloads followed by HTTP Polling within frames.
+
+However, none of these solutions offered a truly standardized cross browser solution to real-time bi-directional communication between a server and a client.
+
+This gave rise to the need of Web Sockets Protocol. It gave rise to full-duplex communication bringing desktop-rich functionality to all web browsers.
+
+## WebSockets - Functionalities
+Web Socket helps in dynamic flow of the connections that are persistent full duplex. Full duplex refers to the communication from both the ends with considerable fast speed.
+
+It is termed as a game changer because of its efficiency of overcoming all the drawbacks of existing protocols.  
+
+### Web Socket for Developers and Architects
+Importance of Web Socket for developers and architects：
+1. Web Socket is an independent TCP-based protocol, but it is designed to support any other protocol that would traditionally run only on top of a pure TCP connection.  
+2. Web Socket is a transport layer on top of which any other protocol can run. The Web Socket API supports the ability to define sub-protocols: protocol libraries that can interpret specific protocols.  
+3. Examples of such protocols include XMPP, STOMP, and AMQP. The developers no longer have to think in terms of the HTTP request-response paradigm.  
+4. The only requirement on the browser-side is to run a JavaScript library that can interpret the Web Socket handshake, establish and maintain a Web Socket connection.  
+5. On the server side, the industry standard is to use existing protocol libraries that run on top of TCP and leverage a Web Socket Gateway.
+
 
 
 
