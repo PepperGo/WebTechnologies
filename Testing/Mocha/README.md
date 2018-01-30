@@ -180,6 +180,18 @@ In a Mocha test, it makes sense to use ```stub-collections``` in a ```beforeEach
 For more details, please refer to [Test data](https://guide.meteor.com/testing.html#test-data)
 
 
+## Unit Testing
+Unit testing is the process of isolating a section of code and then testing that the internals of that section work as you expect. As we’ve split our code base up into [ES2015 modules](https://guide.meteor.com/structure.html) it’s natural to test those modules one at a time.  
+
+By isolating a module and simply testing its internal functionality, we can write tests that are fast and accurate—they can quickly tell you where a problem in your application lies. Note however that incomplete unit tests can often hide bugs because of the way they stub out dependencies. For that reason it’s useful to combine unit tests with slower (and perhaps less commonly run) integration and acceptance tests.
+
+### Example(A simple Blaze unit test)
+
+
+
+
+
+
 
 ## Reference
 1. How to test your Meteor application https://guide.meteor.com/testing.html
