@@ -11,6 +11,12 @@ In package.json, use ```scripts``` define npm script.
   }
 }
 ```
+Use npm run to run this script.
+```
+$ npm run build
+# same to
+$ node build.js
+```
 
 
 
