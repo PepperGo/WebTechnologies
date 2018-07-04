@@ -1,6 +1,6 @@
 # Notes
 
-### 1. Spring Restful API - POST String
+### 1. Spring Restful API - POST String to Controller
 - 1.  
 ```
     @RequestMapping(value="/", method = POST)
@@ -18,7 +18,7 @@
      * @param query
      * @return
      */
-    @RequestMapping(value = "/test", method = POST)
+    @RequestMapping(value = "/test", method = POST, consumes = "application/json")
     public ResponseEntity<String> testPostString(@RequestBody String query) {
         logger.info(query);
         return new ResponseEntity<>(query, HttpStatus.OK);
