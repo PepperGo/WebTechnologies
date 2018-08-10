@@ -1,5 +1,9 @@
 # Github Commands
 
+### Rename a local and remote branch in git
+[Rename a local and remote branch in git](https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/)  
+
+
 ### Create a branch in Git from another branch
 [Create a branch in Git from another branch](https://stackoverflow.com/questions/4470523/create-a-branch-in-git-from-another-branch)
 
