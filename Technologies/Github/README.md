@@ -1,5 +1,11 @@
 # Github Commands
 
+### Definition of “downstream” and “upstream”
+[Definition of “downstream” and “upstream”](https://stackoverflow.com/questions/2739376/definition-of-downstream-and-upstream)   
+[What does '--set-upstream' do?](https://stackoverflow.com/questions/18031946/what-does-set-upstream-do)  
+
+
+
 ### Rename a local and remote branch in git
 [Rename a local and remote branch in git](https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/)  
 
