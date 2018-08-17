@@ -1,7 +1,7 @@
 # Github Commands
 ### Best (and safest) way to merge a git branch into master
 [Best (and safest) way to merge a git branch into master](https://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master)  
-
+[git-merge](https://git-scm.com/docs/git-merge)
 
 
 ### Definition of “downstream” and “upstream”
