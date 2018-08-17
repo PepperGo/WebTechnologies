@@ -1,4 +1,9 @@
 # Github Commands
+
+### Reasons for not working on the master branch in Git
+[Reasons for not working on the master branch in Git](https://stackoverflow.com/questions/5713563/reasons-for-not-working-on-the-master-branch-in-git)  
+
+
 ### Best (and safest) way to merge a git branch into master
 [Best (and safest) way to merge a git branch into master](https://stackoverflow.com/questions/5601931/best-and-safest-way-to-merge-a-git-branch-into-master)  
 [git-merge](https://git-scm.com/docs/git-merge)  
