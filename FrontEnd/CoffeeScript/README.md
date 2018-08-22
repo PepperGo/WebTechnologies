@@ -87,5 +87,19 @@ A local variable will be visible only within a function where it is defined. Fun
 ### CoffeeScript - Operators and Aliases
 [Sample](https://www.tutorialspoint.com/coffeescript/coffeescript_operators_and_aliases.htm)  
 
+### CoffeeScript - Conditionals
+
+### CoffeeScript - Loops
+if, if...else, unless,  unless...else, switch
+then...
+
+### CoffeeScript - Loops
+while, for, for...in 
+
+### CoffeeScript - Comprehensions
+
+### CoffeeScript - Functions  
+The function keyword is eliminated in CoffeeScript. To define a function here, we have to use a thin arrow (->).
+function_name = -> function_body
 
 
