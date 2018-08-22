@@ -1,5 +1,15 @@
 # Some linux command useful in work
 
+- 4. How to kill a process running on particular port in Linux?
+```
+lsof -i:8080
+
+kill -9 16085
+
+```
+[How to kill a process running on particular port in Linux?](https://stackoverflow.com/questions/11583562/how-to-kill-a-process-running-on-particular-port-in-linux)  
+
+
 - 3. How do I find all files containing specific text on Linux?
 ```
 grep -rnw '/path/to/somewhere/' -e 'pattern'
