@@ -1,5 +1,11 @@
 # Github Commands
 
+### Check the parent branch
+```
+ git reflog branchName | tail -n 1
+```  
+
+
 ### git pull && git fetch
 [What is the difference between 'git pull' and 'git fetch'?](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)
 
