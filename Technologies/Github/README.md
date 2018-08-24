@@ -1,5 +1,8 @@
 # Github Commands
 
+### git pull && git fetch
+[What is the difference between 'git pull' and 'git fetch'?](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)
+
 ### Reasons for not working on the master branch in Git
 [Reasons for not working on the master branch in Git](https://stackoverflow.com/questions/5713563/reasons-for-not-working-on-the-master-branch-in-git)  
 
