@@ -25,63 +25,68 @@ If you have many years of software/web development experience, this study-list a
 ![](http://www.olubukolaagboola.com/wp-content/uploads/2017/02/web-developer-Olubukola-Agboola.png)  
 
 ## Table of Contents
-* [Front-End](https://github.com/PepperGo/WebTechnologies/tree/master/FrontEnd)
+* [Client Side](./Client\ Side)
     * HTML/CSS
     * JavaScript
     * jQuery
     * Single page applications
     * XML
-    * Node.js
-    * Framework
-      * AngularJS
-      * Vue.js
+	* ES6
+	* AngularJS
+	* Vue.js
+	* Meteor
+	* CoffeeScript 
 
 
-* [Back-End](https://github.com/PepperGo/WebTechnologies/tree/master/BackEnd)
+* [Server Side](./Server\ Side)
     * JSP
     * Servlets
     * Framework
-      * Spring
-      * Spring MVC
+      * Spring Boot
       * Hibernate
+	  * Node.js
       
-* [Framework](https://github.com/PepperGo/WebTechnologies/tree/master/Framework)
+* [Framework](./Framework)
     * Akka
-    * Meteor
     * Play Framework
-    * Spring/Spring MVC
-    * Hibernate
     * Jersey
 
-* [Database](https://github.com/PepperGo/WebTechnologies/tree/master/Database)
+* [Database](./Database)
     * JDBC
     * MySQL
     * MongoDB
     * Redis
+
+* [Deployment](./Deployment)
+	* Docker
+	* AWS
+	
+* [Security](./Security)
+	* OpenSSL
     
-* [SOA & Web Services](https://github.com/PepperGo/WebTechnologies/tree/master/SOA-WebServices)
+* [Concepts](./Concepts)
     * SOA
     * XML-Based Services
     * RESTful Services
+	* WebSocket
+	* Actor Model
 
-* [Techniques](https://github.com/PepperGo/WebTechnologies/tree/master/Technologies)
-    * ActorModel
+* [Tools](./Tools)
+    * Build Management System
     * Chocolatey
-    * Java
-    * Python
+    * Github
+    * Linux Command
     * SBT
+	* regex
     
-* [Testing](https://github.com/PepperGo/WebTechnologies/tree/master/Testing)
+* [Testing](./Testing)
     * Extend Report
     * Mocha
     * Selenium
-    
-    
-* [Others](https://github.com/PepperGo/WebTechnologies/tree/master/Others)
-    * Regex
-    
+	* Junit
+	* Load Testing
+	* TestNG
 
-## Why use it?
-
-
-## How to use it?
+* [Languages](./Languages)
+	* Java
+	* Python
