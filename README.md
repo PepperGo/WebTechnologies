@@ -25,7 +25,7 @@ If you have many years of software/web development experience, this study-list a
 ![](http://www.olubukolaagboola.com/wp-content/uploads/2017/02/web-developer-Olubukola-Agboola.png)  
 
 ## Table of Contents
-* [Client Side](./Client\ Side)
+* [Client Side](./Client%20Side)
     * HTML/CSS
     * JavaScript
     * jQuery
@@ -38,7 +38,7 @@ If you have many years of software/web development experience, this study-list a
 	* CoffeeScript 
 
 
-* [Server Side](./Server\ Side)
+* [Server Side](./Server%20Side)
     * JSP
     * Servlets
     * Framework
