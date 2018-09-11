@@ -1,5 +1,9 @@
 # Github Commands
 
+### How do I show the changes which have been staged?
+[How do I show the changes which have been staged?](https://stackoverflow.com/questions/1587846/how-do-i-show-the-changes-which-have-been-staged)  
+
+
 ### Conflict
 [How can I solve a conflict in a pull request?](https://community.atlassian.com/t5/Bitbucket-questions/How-can-I-solve-a-conflict-in-a-pull-request/qaq-p/577205)  
 [Resolve merge conflicts](https://confluence.atlassian.com/bitbucket/resolve-merge-conflicts-704414003.html)
