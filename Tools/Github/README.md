@@ -1,5 +1,9 @@
 # Github Commands
 
+### Conflict
+[How can I solve a conflict in a pull request?](https://community.atlassian.com/t5/Bitbucket-questions/How-can-I-solve-a-conflict-in-a-pull-request/qaq-p/577205)  
+[Resolve merge conflicts](https://confluence.atlassian.com/bitbucket/resolve-merge-conflicts-704414003.html)
+
 ### Check the parent branch
 ```
  git reflog branchName | tail -n 1
