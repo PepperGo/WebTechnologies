@@ -103,3 +103,5 @@ The function keyword is eliminated in CoffeeScript. To define a function here, w
 function_name = -> function_body
 
 
+## Reference
+1. [CoffeeScript Cookbook](https://coffeescript-cookbook.github.io/)  
