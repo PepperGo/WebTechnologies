@@ -1,5 +1,8 @@
 # Github Commands
 
+### Conflict
+[Git merge left HEAD marks in my files](https://stackoverflow.com/questions/10657315/git-merge-left-head-marks-in-my-files)
+
 ### How do I show the changes which have been staged?
 [How do I show the changes which have been staged?](https://stackoverflow.com/questions/1587846/how-do-i-show-the-changes-which-have-been-staged)  
 
