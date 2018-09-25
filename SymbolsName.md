@@ -31,3 +31,4 @@
 
 
 ### Math 
+2^3 "2 to the power of 3"
