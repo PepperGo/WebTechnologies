@@ -31,4 +31,5 @@
 
 
 ### Math 
-2^3 "2 to the power of 3"
+2^3 "2 to the power of 3",  In that case, bn is called "b raised to the n-th power", "b raised to the power of n", or "the n-th power of b".  
+
