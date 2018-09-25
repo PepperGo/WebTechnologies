@@ -1,5 +1,8 @@
 # Github Commands
 
+### Changing a commit message
+[Changing a commit message](https://help.github.com/articles/changing-a-commit-message/)
+
 ### Conflict
 [Git merge left HEAD marks in my files](https://stackoverflow.com/questions/10657315/git-merge-left-head-marks-in-my-files)
 
