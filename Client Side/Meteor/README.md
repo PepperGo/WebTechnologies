@@ -1,3 +1,7 @@
+### Meteor.Collection and Meteor.Collection.Cursor
+[Meteor.Collection and Meteor.Collection.Cursor](https://stackoverflow.com/questions/21952898/meteor-collection-and-meteor-collection-cursor)  
+
+
 ## Publish and subscribe
 [Publish and subscribe](https://docs.meteor.com/api/pubsub.html)
 
