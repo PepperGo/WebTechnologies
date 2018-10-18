@@ -14,7 +14,7 @@
 
 , comma
 
-- dash
+\- dash
 
 ! Exclamation mark(point)
 
