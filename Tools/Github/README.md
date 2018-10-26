@@ -1,4 +1,6 @@
 # Github Commands
+### git stash
+[git stash](https://git-scm.com/docs/git-stash)
 
 ### Changing a commit message
 [Changing a commit message](https://help.github.com/articles/changing-a-commit-message/)
