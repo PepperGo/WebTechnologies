@@ -1,4 +1,8 @@
 # Github Commands
+
+### Git: Squash your latests commits into one
+[Git: Squash your latests commits into one](https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/)
+
 ### Pushing to Git returning Error Code 403 fatal: HTTP request failed
 [Pushing to Git returning Error Code 403 fatal: HTTP request failed](https://stackoverflow.com/questions/7438313/pushing-to-git-returning-error-code-403-fatal-http-request-failed)   
 
